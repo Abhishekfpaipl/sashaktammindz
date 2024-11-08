@@ -1,9 +1,9 @@
 <template>
     <div>
         <div class="col-12 text-dark" >
-            <img src="/img/homeBannerDesk.jpg" class="position-relative min-vh-100 d-none d-md-block"
+            <img :src="img" class="position-relative min-vh-100 d-none d-md-block"
                 style="width:100%; height:400px; object-fit:cover;">
-            <img src="/img/homeBannerMob.jpg" class="position-relative d-md-none" style="width:100%;object-fit:cover;">
+            <img :src="img" class="position-relative d-md-none" style="width:100%;object-fit:cover;">
             <div class="position-absolute top-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center"
                 style="background-color:#FCF0FF80">
                 <img src="/img/logo.svg" alt="" style="width:250px;filter: brightness(150);">
@@ -38,6 +38,7 @@ export default {
     },
     data() {
         return {
+            img:'https://img.freepik.com/premium-photo/statue-justice-lady-justice-iustitia-justitia-roman-goddess-justice-with-coronavirus-covid19-scale-law-concept-image-banner-size_157125-15632.jpg?w=1380',
             services: [
                 'PoSH ACT 2013.',
                 'POCSO ACT 2012.',

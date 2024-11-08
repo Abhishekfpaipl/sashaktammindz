@@ -1,5 +1,5 @@
 <template>
-    <div class="" >
+    <div class="">
         <div class="container px-3 px-md-0">
             <h1 class="text-center text-capitalize py-3">Why Choose Us</h1>
             <div class="row d-flex justify-content-center pb-5 pt-2">
@@ -17,7 +17,8 @@
 
 
                 <div class="col-lg-4 overflow-hidden p-5 mt-0">
-                    <img src="/img/services.svg" class="h-100 w-100 of-cover">
+                    <img src="https://img.freepik.com/free-photo/business-man-holding-clipboard-with-why-choose-us-question_23-2148932313.jpg?t=st=1731059685~exp=1731063285~hmac=5cdb0f713021af83dc8b1e243629b05b9b0291ac21e865b769f79d9a5c0e9547&w=740"
+                        class="h-100 w-100 of-cover">
                 </div>
 
 
