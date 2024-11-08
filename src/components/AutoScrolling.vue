@@ -96,7 +96,7 @@ export default {
     --color-bg-accent: #ecdcc0;
     --size: clamp(10rem, 1rem + 40vmin, 30rem);
     --gap: calc(var(--size) / 5);
-    --duration: 45s;
+    --duration: 150s;
     --scroll-start: 0;
     --scroll-end: calc(-100% - var(--gap));
 }

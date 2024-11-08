@@ -1,6 +1,6 @@
 <template>
     <div >
-        <div class="text-center fw-bold py-5 text-white" style="background-color: var(--brand-color);">
+        <div class="text-center fw-bold py-5 text-white" style="background-color: var(--primary-color);">
             <h1 class="text-center mb-4">Frequently Asked Questions</h1>
         </div>
         <div class="container py-5 rounded-top-5 bg-white" style="margin-top: -40px;">
@@ -104,7 +104,7 @@ export default {
 }
 
 .nav-link.active {
-    background-color: var(--brand-color) !important;
+    background-color: var(--primary-color) !important;
     color: white;
     transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
 }

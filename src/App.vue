@@ -39,4 +39,8 @@ export default {
   --secondary-color: #A92582 !important;
   --third-color: #FCF0FF !important;
 }
+
+#scroll::-webkit-scrollbar {
+  display: none;
+}
 </style>
