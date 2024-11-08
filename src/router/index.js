@@ -13,8 +13,33 @@ const routes = [
   },
   {
     path: "/free-trial",
-    name: "free-trial",
+    name: "FreeTrial",
     component: () => import("@/pages/FreeTrial.vue")
+  },
+  {
+    path: "/faqs",
+    name: "FaqsPage",
+    component: () => import("@/pages/FaqsPage.vue")
+  },
+  {
+    path: "/contact-us",
+    name: "ContactUs",
+    component: () => import("@/pages/ContactUs.vue")
+  },
+  {
+    path: "/privacy-policy",
+    name: "PrivacyPolicy",
+    component: () => import("@/pages/PrivacyPolicy.vue")
+  },
+  {
+    path: "/terms",
+    name: "TermsConditions",
+    component: () => import("@/pages/TermsConditions.vue")
+  },
+  {
+    path: "/legal-warning",
+    name: "LegalWarning",
+    component: () => import("@/pages/LegalWarning.vue")
   },
 ];
 

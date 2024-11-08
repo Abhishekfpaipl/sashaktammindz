@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-12 col-md-4 mb-3">
                 <router-link to="/">
-                    <img :src="img" style="width: 100px;object-fit: contain;">
+                    <img :src="img" style="width: 200px;object-fit: contain;">
                 </router-link>
                 <p class="mb-0 fw-bold fs-2 text-uppercase">Shashaktam</p>
                 <p class="my-0 text-capitalize fs-4">Mindz</p>
@@ -12,9 +12,11 @@
 
             <div class=" col-12 col-md-4 mb-3 text-center">
                 <p class="mb-2 fw-bold">Contact Us</p>
-                <p class="mb-2">Email : support@covisor.in</p>
-                <p class="mb-2">Mob no. : 91 8860012001</p>
-                <p class="mb-2">Address : 2nd Floor, Block B1/632, <br> Janakpuri, 110058, Delhi, India</p>
+                <p class="mb-2">Email : noopur@sashaktammindz.com</p>
+                <p class="mb-2">Mob no. : 91-9312765888</p>
+                <p class="mb-2">Address : 20, Onward Workspaces, First <br>
+                    Floor, Okhla Industrial Estate,<br>
+                    Phase-3, New Delhi-110020</p>
                 <div class="d-flex gap-2 justify-content-center align-items-center">
                     <p class="fw-bold mb-0">Follow Us :</p>
                     <!-- <i class="bi bi-twitter-x"></i> -->
@@ -59,13 +61,9 @@
     </div>
 </template>
 
-<script>
-// import FameFoot from '@/components/FameFoot.vue'
+<script> 
 export default {
-    name: 'FooterBar',
-    components: {
-        // FameFoot,
-    },
+    name: 'FooterBar', 
     data() {
         return {
             img: '/img/logo.png',
@@ -79,22 +77,7 @@ export default {
                     id: 42,
                     name: 'About Us',
                     link: '/about-us'
-                },
-                {
-                    id: 3,
-                    name: 'Patnership',
-                    link: '/reseller-program'
-                },
-                {
-                    id: 9,
-                    name: 'Career',
-                    link: '/career'
-                },
-                {
-                    id: 3,
-                    name: 'Business',
-                    link: '/business'
-                },
+                }, 
             ],
             links: [
                 {
@@ -110,21 +93,8 @@ export default {
                 {
                     id: 1,
                     name: 'Terms & Conditions',
-                    link: '/terms-of-use'
-                },
-                {
-                    id: 1,
-                    name: 'Cookies Policies',
-                    link: '/cookies'
-                },
-                {
-                    id: 1,
-                    name: 'Return Policies',
-                    link: '/return-policy'
-                },
-
-
-
+                    link: '/terms'
+                },   
             ],
         }
     },

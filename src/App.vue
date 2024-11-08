@@ -37,6 +37,6 @@ export default {
 :root {
   --primary-color: #682F67 !important;
   --secondary-color: #A92582 !important;
-  --third-colo: #FCF0FF !important;
+  --third-color: #FCF0FF !important;
 }
 </style>
