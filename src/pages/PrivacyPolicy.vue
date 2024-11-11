@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div style="padding-top: 64px;">
         <div class="text-center fw-bold py-5 text-white" style="background-color: var(--primary-color)">
             <p class="fs-1">Privacy Policy</p>
         </div>

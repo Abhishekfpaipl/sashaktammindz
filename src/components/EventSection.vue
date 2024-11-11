@@ -15,13 +15,13 @@
                         </div>
                     </div>
 
-                    <div class="text-start mb-4">
-                        <img :src="logoUrl" alt="Workshop Logo" class="img-fluid" style="max-width: 300px;" />
-                    </div>
-
+                    
                     <div class="text-start mb-4">
                         <h4>{{ title }}</h4>
                         <p class="text-muted">{{ description }}</p>
+                    </div>
+                    <div class="text-center text-md-end mb-4">
+                        <img :src="logoUrl" alt="Workshop Logo" class="img-fluid" style="max-width:150px;" />
                     </div>
                 </div>
 

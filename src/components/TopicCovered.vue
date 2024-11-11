@@ -1,20 +1,20 @@
 // TopicsCovered.vue
 <template>
     <div class="container my-5">
-        <h1 class="text-center mb-4 fw-bold">Topics Covered</h1>
+        <h1 class="text-center display-6 mb-4">Topics Covered</h1>
         <p class="text-center mb-5">
             Each session is tailored to deepen participants' understanding of the POSH Act's complexities, blending
-            education with empowerment. This program covers all of the PoSHAware modules and then extends to cover the
+            education with empowerment. This program covers all of the POSH Aware modules and then extends to cover the
             following finer nuances and procedures of the Act as per the Supreme Court mandates.
         </p>
 
         <div class="row g-4">
             <div v-for="(topic, index) in topics" :key="index" class="col-md-6 col-lg-3">
-                <div class="card h-100 border-0 shadow-sm">
+                <div class="card h-100 border-0 shadow-sm" style="background-color: var(--third-color)">
                     <img :src="topic.image" class="card-img-top p-3" :alt="topic.title"
                         style="height: 200px; object-fit: contain;">
                     <div class="card-body text-center">
-                        <h5 class="card-title text-primary mb-3">{{ topic.title }}</h5>
+                        <h5 class="fw-medium mb-3" style="color: var(--primary-color)">{{ topic.title }}</h5>
                         <p class="card-text small">{{ topic.description }}</p>
                     </div>
                 </div>
@@ -97,12 +97,7 @@ export default {
 
 .card:hover {
     transform: translateY(-5px);
-}
-
-.card-title {
-    font-size: 1.1rem;
-    font-weight: 600;
-}
+} 
 
 .card-text {
     color: #6c757d;

@@ -5,12 +5,7 @@ const routes = [
     path: "/",
     name: "home",
     component: () => import('@/pages/HomePage.vue'),
-  },
-  {
-    path: "/plan/:priceId/:planId",
-    name: "PricePlanDetailPage",
-    component: () => import('@/pages/PricePlanDetailPage.vue')
-  },
+  }, 
   {
     path: "/free-trial",
     name: "FreeTrial",
@@ -46,11 +41,34 @@ const routes = [
     name: "LegalWarning",
     component: () => import("@/pages/LegalWarning.vue")
   },
+  {
+    path: "/our-team/:profileId",
+    name: "OurTeam",
+    component: () => import("@/pages/OurTeam.vue")
+  },
+  {
+    path: "/:serviceId",
+    name: "ServiceDetailPage",
+    component: () => import("@/pages/ServiceDetailPage.vue")
+  },
+  {
+    path: "/blogs/:blogId",
+    name: "BlogDetailPage",
+    component: () => import("@/pages/BlogDetailPage.vue")
+  },
 ];
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes,
+  scrollBehavior(to, from, savedPosition) {
+    // Always scroll to top
+    if (savedPosition) {
+      return savedPosition;
+    } else {
+      return { top: 0 };
+    }
+  }
 });
 
 export default router;

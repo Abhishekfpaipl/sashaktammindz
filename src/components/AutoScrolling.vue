@@ -1,12 +1,12 @@
 <template>
     <div class="my-5 text-dark">
-        <h1 class="text-capitalize text-center mb-5">Hear From Our Clients</h1>
+        <p class="text-capitalize display-6 text-center mb-5">Hear From Our Clients</p>
         <!-- <p class="text-center mb-5">{{ title }}</p> -->
         <article :class="['wrapper', { 'wrapper--vertical': isVertical }]">
             <div class="marquee" :class="{ 'marquee--vertical': isVertical }">
                 <div class="marquee__group" :style="{ 'animation-direction': isReverse ? 'reverse' : 'normal' }">
                     <div class="" v-for="(card, index) in cards" :key="index">
-                        <div class="card-container position-relative rounded p-2" style="background-color: #f0f8ff;">
+                        <div class="card-container position-relative rounded p-2" style="background-color: var(--third-color);">
                             {{ card }}
                         </div>
                     </div>
@@ -14,7 +14,7 @@
                 <div aria-hidden="true" class="marquee__group"
                     :style="{ 'animation-direction': isReverse ? 'reverse' : 'normal' }">
                     <div class="" v-for="(card, index) in cards" :key="index">
-                        <div class="card-container position-relative rounded p-2" style="background-color: #f0f8ff;">
+                        <div class="card-container position-relative rounded p-2" style="background-color: var(--third-color);">
                             {{ card }}
                         </div>
                     </div>
@@ -24,7 +24,7 @@
             <div class="marquee marquee--reverse" :class="{ 'marquee--vertical': isVertical }">
                 <div class="marquee__group" :style="{ 'animation-direction': isReverse ? 'normal' : 'reverse' }">
                     <div class="" v-for="(card, index) in cards" :key="index">
-                        <div class="card-container position-relative rounded p-2" style="background-color: #f0f8ff;">
+                        <div class="card-container position-relative rounded p-2" style="background-color: var(--third-color);">
                             {{ card }}
                         </div>
                     </div>
@@ -32,7 +32,7 @@
                 <div aria-hidden="true" class="marquee__group"
                     :style="{ 'animation-direction': isReverse ? 'normal' : 'reverse' }">
                     <div class="" v-for="(card, index) in cards" :key="index">
-                        <div class="card-container position-relative rounded p-2" style="background-color: #f0f8ff;">
+                        <div class="card-container position-relative rounded p-2" style="background-color: var(--third-color);">
                             {{ card }}
                         </div>
                     </div>
@@ -42,7 +42,7 @@
             <div class="marquee" :class="{ 'marquee--vertical': isVertical }">
                 <div class="marquee__group" :style="{ 'animation-direction': isReverse ? 'reverse' : 'normal' }">
                     <div class="" v-for="(card, index) in cards" :key="index">
-                        <div class="card-container position-relative rounded p-2" style="background-color: #f0f8ff;">
+                        <div class="card-container position-relative rounded p-2" style="background-color: var(--third-color);">
                             {{ card }}
                         </div>
                     </div>
@@ -50,7 +50,7 @@
                 <div aria-hidden="true" class="marquee__group"
                     :style="{ 'animation-direction': isReverse ? 'reverse' : 'normal' }">
                     <div class="" v-for="(card, index) in cards" :key="index">
-                        <div class="card-container position-relative rounded p-2" style="background-color: #f0f8ff;">
+                        <div class="card-container position-relative rounded p-2" style="background-color: var(--third-color);">
                             {{ card }}
                         </div>
                     </div>

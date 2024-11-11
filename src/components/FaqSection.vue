@@ -1,5 +1,5 @@
 <template>
-    <div class=" bg-light text-dark border-bottom">
+    <div class=" bg-light text-dark ">
         <div class="container py-5">
             <div class="row align-items-center">
                 <div v-if="imagePosition === 'left'" class="col-md-6 text-center">

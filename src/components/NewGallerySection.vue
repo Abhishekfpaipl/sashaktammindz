@@ -58,5 +58,6 @@ export default {
 .card-img-top {
     height: 200px;
     object-fit: cover;
+    object-position: top center;
 }
 </style>

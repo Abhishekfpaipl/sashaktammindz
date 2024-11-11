@@ -43,59 +43,54 @@ export default {
     name: "OurService",
     data() {
         return {
-            servicesLeft: [
+            "servicesLeft": [
                 {
-                    id: 1,
-                    title: "24X7 Support Services",
-                    icon: "bi-headset",
-                    description: "Providing round-the-clock support to address your needs anytime, anywhere.",
+                    "id": 1,
+                    "title": "Round-the-Clock Legal Support",
+                    "icon": "bi-headset",
+                    "description": "Legal background of over 17+ years which ensures better understanding of the nuances of law."
                 },
                 {
-                    id: 2,
-                    title: "Quality Assurance",
-                    icon: "bi-hand-thumbs-up",
-                    description: "Ensuring the highest standards of quality in every project we deliver.",
+                    "id": 2,
+                    "title": "Commitment to Excellence",
+                    "icon": "bi-hand-thumbs-up",
+                    "description": "Customized trainings as per the need of the organization."
                 },
                 {
-                    id: 3,
-                    title: "100% Customization",
-                    icon: "bi-pencil",
-                    description: "Offering fully tailored solutions to meet your unique business requirements.",
-                },
-                {
-                    id: 4,
-                    title: "Cost Effective Pricing",
-                    icon: "bi-currency-rupee",
-                    description: "Delivering high-quality services at affordable and competitive prices.",
-                },
+                    "id": 3,
+                    "title": "Tailored Solutions for Every Need",
+                    "icon": "bi-pencil",
+                    "description": "Three times Chairperson of Local Committee under POSH with District Magistrate, New Delhi District."
+                }
             ],
-            servicesRight: [
+            "servicesRight": [
                 {
-                    id: 1,
-                    title: "Remarkable Track Record",
-                    icon: "bi-journal",
-                    description: "Proven success and reliability in delivering exceptional results.",
+                    "id": 1,
+                    "title": "Proven Legal Expertise",
+                    "icon": "bi-journal",
+                    "description": "Regular updates to clients with respect to changes in law and recent judgements."
                 },
                 {
-                    id: 2,
-                    title: "10 Years of Expertise",
-                    icon: "bi-stars",
-                    description: "A decade of experience and expertise in the industry.",
+                    "id": 2,
+                    "title": "A Decade of Trusted Legal Excellence",
+                    "icon": "bi-stars",
+                    "description": "Sharing of best practices"
                 },
                 {
-                    id: 3,
-                    title: "Low Maintenance Cost",
-                    icon: "bi-currency-rupee",
-                    description: "Minimized maintenance expenses for long-term savings.",
+                    "id": 3,
+                    "title": "Cost-Effective Legal Solutions",
+                    "icon": "bi-currency-rupee",
+                    "description": "Personalised attention."
                 },
                 {
-                    id: 4,
-                    title: "Business Scale Flexibility",
-                    icon: "bi-graph-up-arrow",
-                    description: "Scalable solutions to accommodate businesses of all sizes.",
-                },
+                    "id": 4,
+                    "title": "Scalable Solutions for Every Business",
+                    "icon": "bi-graph-up-arrow",
+                    "description": "Ease of access to guidance."
+                }
             ]
         }
+
     }
 }
 </script>

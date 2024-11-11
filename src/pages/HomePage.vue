@@ -20,7 +20,7 @@
             <WhyChooseUs v-observe />
         </div>
         <div class="">
-            <TeamSection />
+            <TeamSection imagePosition="right" :profiles="profiles" />
         </div>
         <div class="">
             <FaqSection :faqs="faqs"
@@ -33,8 +33,12 @@
                 image="https://img.freepik.com/free-photo/horizontal-shot-happy-friends-point-fingers-you-gesture-indoor-make-choice-have-positive-expressions_273609-19000.jpg?t=st=1731059972~exp=1731063572~hmac=a96dd8f670c57b74e028e91923e692fb19568577f34aa0372bfb1b5a9719d4e3&w=996"
                 title="Here's the Impact we have created" path="/about-us" v-observe />
         </div>
-        <NewGallerySection :images="gallery" title="Gallery" />
-        <NewGallerySection :images="awards" title="Certificates" />
+        <div class="my-5">
+            <NewGallerySection :images="gallery" title="Gallery" />
+        </div>
+        <div class="my-5">
+            <NewGallerySection :images="awards" title="Certificates" />
+        </div>
     </div>
 </template>
 <script>
@@ -89,6 +93,11 @@ export default {
             // ]
         }
     },
+    computed: {
+        profiles() {
+            return this.$store.getters.getProfiles;
+        }
+    }
 }
 </script>
 <style lang="">

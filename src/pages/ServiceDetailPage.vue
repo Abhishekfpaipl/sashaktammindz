@@ -3,9 +3,8 @@
 
         <h1 class="text-center mb-5">{{ title }}</h1>
         <div class="container">
-            <div class="row border p-1 my-2" v-for="(service, index) in services" :key="index">
-                <div class="col-lg-6 text-center mb-4"
-                    :class="{ 'order-lg-0': index % 2 === 0, 'order-lg-1': index % 2 !== 0 }">
+            <div class="row border p-1 my-2">
+                <div class="col-lg-6 text-center mb-4">
                     <p class="text-center fs-3 text-capitalize mb-4">{{ service.title }}</p>
                     <img :src="service.image" class="img-fluid sticky-image" :alt="service.title">
                 </div>
@@ -20,10 +19,27 @@
 
                         <!-- Read More Button -->
                         <div class="text-center">
-                            <router-link :to="'/' + service.sid" class=" btn text-white"
+                            <router-link :to="'/' + service.sid" class="btn text-white"
                                 style="background-color: var(--primary-color);">
                                 Read more <i class="bi bi-arrow-right"></i>
                             </router-link>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <h2 class="text-center my-5">Services</h2>
+
+            <div class="row g-4">
+                <div v-for="(s, index) in service.services" :key="index" class="col-md-6 col-lg-3">
+                    <div class="text-start h-100 p-4" style="background-color: var(--third-color);">
+                        <div class="mb-3">
+                            <i :class="s.icon" class="bi fs-1" style="color: var(--primary-color);"></i>
+                        </div>
+                        <div class="">
+                            <h3 class="h5 mb-3">{{ s.title }}</h3>
+                            <p class="small text-muted mb-0">{{ s.description }}</p>
                         </div>
                     </div>
                 </div>
@@ -33,17 +49,17 @@
 </template>
 <script>
 export default {
-    name: "ServicesCard",
+    name: "ServiceDetailPage",
     data() {
         return {
-            title: "Our Services",
 
         }
     },
     computed: {
-        services() {
-            return this.$store.getters.getServices
-        }
+        service() {
+            let serviceId = this.$route.params.serviceId;
+            return this.$store.getters.getService(serviceId);
+        },
     }
 }
 </script>
