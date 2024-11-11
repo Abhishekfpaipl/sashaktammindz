@@ -20,13 +20,13 @@
                 <div class="d-flex gap-2 justify-content-center align-items-center">
                     <p class="fw-bold mb-0">Follow Us :</p>
                     <!-- <i class="bi bi-twitter-x"></i> -->
-                    <a href="https://www.facebook.com/Ayush.Covisor/"
+                    <a href="https://www.facebook.com/"
                         class="d-flex align-items-center gap-2 text-decoration-none"
                         style="color: var(--brand-color) !important">
                         <i class="bi bi-facebook"></i>
                         <span>Facebook</span>
                     </a>
-                    <a href="https://www.linkedin.com/in/mr-ayushgupta/"
+                    <a href="https://www.linkedin.com/in"
                         class="d-flex align-items-center gap-2 text-decoration-none"
                         style="color: var(--brand-color) !important">
                         <i class="bi bi-linkedin"></i>

@@ -83,7 +83,7 @@ export default {
     display: inline-block;
     overflow: hidden;
     background-color: var(--secondary-color);
-    color: var(--brand-color);
+    color: var(--third-color);
     /* color: white; */
 }
 

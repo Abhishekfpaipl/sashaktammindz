@@ -15,7 +15,7 @@
   <div class="modal fade p-0" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-fullscreen">
       <div class="modal-content bg-transparent">
-        <div class="modal-body p-0">
+        <div class="modal-body p-0"> 
           <!-- <div class="d-flex justify-content-end">
             <i class="bi bi-x text-white fs-1" data-bs-dismiss="modal" aria-label="Close"></i>
           </div> -->

@@ -1,15 +1,13 @@
 <template>
-    <div class="containerr d-flex justify-content-between align-items-center" ref="topnav"
-        :style="`background: rgba(248, 249, 250, ${backgroundOpacity});`">
+    <div class="containerr d-flex justify-content-between align-items-center" style="background-color: var(--third-color);">
         <div class="d-flex align-items-center gap-3">
-            <router-link to="/" :class="{ 'hide-on-scroll': hideOnScroll }"
-                class="text-decoration-none text-dark d-flex align-items-center">
+            <router-link to="/" class="text-decoration-none text-dark d-flex align-items-center">
                 <img src="/img/logo.png" style="height: 40px;">
                 <!-- <span class="mb-0 fw-bold fs-2 text-uppercase"
                     style="color:var(--brand-color) !important">covisor</span> -->
             </router-link>
         </div>
-        <div class="d-flex gap-1 align-items-center" :class="{ 'hide-on-scroll': hideOnScroll }">
+        <div class="d-flex gap-1 align-items-center">
             <router-link to="/contact-us" class="btn d-flex align-items-center gap-2"
                 style="color: var(--brand-color);">
                 <i class="bi bi-telephone-inbound-fill fs-5"></i>
