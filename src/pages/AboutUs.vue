@@ -1,9 +1,9 @@
 <template>
     <div style="padding-top: 64px;">
-        <div class="container">
+        <div class="container pb-5 mb-5">
             <div class="row justify-content-center align-items-center">
                 <div class="col-md-6">
-                    <img src="https://img.freepik.com/premium-vector/law-firm-concept-illustration_86047-698.jpg?w=826"
+                    <img src="/img/aboutUs.svg"
                         class="img-fluid" alt="" style="height: 300px;">
                 </div>
                 <div class="col-md-6">
@@ -14,26 +14,23 @@
                         empowered to thrive.</p>
                 </div>
             </div>
-        </div>
-        <div class="container">
             <AboutReportSection />
-            <TopicCovered />
             <AutoScrolling :cards="companies" title="test" />
-            <!-- <AboutSection /> -->
+            <div class="my-5">
+                <TeamSection imagePosition="right" :profiles="profiles" />    
+            </div>
         </div>
     </div>
 </template>
 <script>
-// import AboutSection from '@/components/AboutSection.vue';
-import TopicCovered from '@/components/TopicCovered.vue';
+import TeamSection from '@/components/TeamSection.vue';
 import AutoScrolling from '@/components/AutoScrolling.vue';
 import AboutReportSection from '@/components/AboutReportSection.vue';
 
 export default {
     name: "AboutUs",
     components: {
-        // AboutSection,
-        TopicCovered,
+        TeamSection,
         AutoScrolling,
         AboutReportSection,
     },
@@ -58,6 +55,11 @@ export default {
                 'TAXMANN PUBLICATIONS PVT. LTD.',
                 'PRESCIENT HEALTHCARE GROUP'
             ],
+        }
+    },
+    computed: {
+        profiles() {
+            return this.$store.getters.getProfiles;
         }
     }
 }

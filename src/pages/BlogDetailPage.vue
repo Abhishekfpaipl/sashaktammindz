@@ -1,9 +1,9 @@
 <template>
     <div style="padding-top: 64px;">
-        <div class="container">
+        <div class="container pb-5 mb-5">
             <img :src="blog.image" class="img-fluid" alt="">
-            <p class="display-6 my-5">{{ blog.title }}</p>
-            <p class="text-center">{{ blog.description }} Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <p class="display-6 my-5 text-start">{{ blog.title }}</p>
+            <p class="text-start">{{ blog.description }} Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Voluptas dolores ex culpa quidem dolorum dolorem ea pariatur perspiciatis laudantium. Provident pariatur
                 neque alias minima incidunt consectetur modi autem? Quibusdam eveniet voluptates nobis aliquam fuga rem
                 harum vero eligendi delectus voluptatibus est beatae odit repellendus et, ex voluptatem, modi autem! In

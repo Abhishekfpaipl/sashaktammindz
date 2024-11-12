@@ -14,11 +14,19 @@
                 <ul v-if="points" class="text-start">
                     <li v-for="(point, index) in points" :key="index" class="mb-2">{{ point }}</li>
                 </ul>
-                <div v-if="button" class="d-flex justify-content-start">
-                    <router-link :to="buttonRoute" class="text-decoration-none text-dark border-bottom pb-2">
-                        <span>{{ buttonText }}</span>
-                        <i class="bi bi-arrow-right ms-3"></i>
-                    </router-link>
+                <div class="d-flex gap-4">
+                    <div v-if="button" class="d-flex justify-content-start">
+                        <router-link :to="buttonRoute" class="text-decoration-none text-dark border-bottom pb-2">
+                            <span>{{ buttonText }}</span>
+                            <i class="bi bi-arrow-right ms-3"></i>
+                        </router-link>
+                    </div>
+                    <div v-if="button2" class="d-flex justify-content-start">
+                        <router-link :to="buttonRoute2" class="text-decoration-none text-dark border-bottom pb-2">
+                            <span>{{ buttonText2 }}</span>
+                            <i class="bi bi-arrow-right ms-3"></i>
+                        </router-link>
+                    </div>
                 </div>
             </div>
         </div>
@@ -67,8 +75,17 @@ export default {
         },
         buttonText: {
             type: String,
-        }, 
-        buttonRoute:{
+        },
+        buttonRoute: {
+            type: String,
+        },
+        button2: {
+            type: Boolean,
+        },
+        buttonText2: {
+            type: String,
+        },
+        buttonRoute2: {
             type: String,
         }
     },

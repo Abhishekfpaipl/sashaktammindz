@@ -5,9 +5,21 @@
                 <router-link to="/">
                     <img :src="img" style="width: 200px;object-fit: contain;">
                 </router-link>
-                <p class="mb-0 fw-bold fs-2 text-uppercase">Shashaktam</p>
-                <p class="my-0 text-capitalize fs-4">Mindz</p>
-
+                <div class="d-flex gap-2 justify-content-center align-items-center mt-5">
+                    <p class="fw-bold mb-0">Follow Us :</p>
+                    <!-- <i class="bi bi-twitter-x"></i> -->
+                    <a href="https://www.facebook.com/" class="d-flex align-items-center gap-2 text-decoration-none"
+                        style="color: var(--brand-color) !important">
+                        <i class="bi bi-facebook"></i>
+                        <span>Facebook</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in" class="d-flex align-items-center gap-2 text-decoration-none"
+                        style="color: var(--brand-color) !important">
+                        <i class="bi bi-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <!-- <i class="bi bi-instagram"></i> -->
+                </div>
             </div>
 
             <div class=" col-12 col-md-4 mb-3 text-center">
@@ -17,23 +29,6 @@
                 <p class="mb-2">Address : 20, Onward Workspaces, First <br>
                     Floor, Okhla Industrial Estate,<br>
                     Phase-3, New Delhi-110020</p>
-                <div class="d-flex gap-2 justify-content-center align-items-center">
-                    <p class="fw-bold mb-0">Follow Us :</p>
-                    <!-- <i class="bi bi-twitter-x"></i> -->
-                    <a href="https://www.facebook.com/"
-                        class="d-flex align-items-center gap-2 text-decoration-none"
-                        style="color: var(--brand-color) !important">
-                        <i class="bi bi-facebook"></i>
-                        <span>Facebook</span>
-                    </a>
-                    <a href="https://www.linkedin.com/in"
-                        class="d-flex align-items-center gap-2 text-decoration-none"
-                        style="color: var(--brand-color) !important">
-                        <i class="bi bi-linkedin"></i>
-                        <span>LinkedIn</span>
-                    </a>
-                    <!-- <i class="bi bi-instagram"></i> -->
-                </div>
             </div>
             <div class="col-12 col-md-4 d-flex justify-content-around">
                 <div class="mb-3 text-start">
@@ -61,9 +56,9 @@
     </div>
 </template>
 
-<script> 
+<script>
 export default {
-    name: 'FooterBar', 
+    name: 'FooterBar',
     data() {
         return {
             img: '/img/logo.png',
@@ -77,7 +72,7 @@ export default {
                     id: 42,
                     name: 'About Us',
                     link: '/about-us'
-                }, 
+                },
             ],
             links: [
                 {
@@ -94,7 +89,7 @@ export default {
                     id: 1,
                     name: 'Terms & Conditions',
                     link: '/terms'
-                },   
+                },
             ],
         }
     },

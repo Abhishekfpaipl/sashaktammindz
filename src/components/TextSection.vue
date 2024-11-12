@@ -3,12 +3,12 @@
         <div class="container py-5">
             <div class="row align-items-center">
                 <div class="col-md-6 text-center">
-                    <img src="/img/consultation.jpg" class="img-fluid rounded shadow-md" style="height: 250px;"
+                    <img :src="imageSrc" class="img-fluid rounded shadow-md" style="height: 250px;"
                         alt="Image">
                 </div>
                 <div class="col-md-6 mt-5 mt-md-0">
                     <h3 class="text-center text-capitalize">{{ title }}</h3>
-                    <p class="text-center mb-5 fs-4 ">{{ description }}</p>
+                    <p class="text-center mb-5 fs-5">{{ description }}</p>
                     <router-link :to="routeLink" class="btn border-bottom rounded-0"><span class="me-2">Click
                             Here</span><i class="bi bi-arrow-right visit"></i>
                     </router-link>

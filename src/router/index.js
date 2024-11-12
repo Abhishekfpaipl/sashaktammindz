@@ -5,7 +5,7 @@ const routes = [
     path: "/",
     name: "home",
     component: () => import('@/pages/HomePage.vue'),
-  }, 
+  },
   {
     path: "/free-trial",
     name: "FreeTrial",
@@ -55,6 +55,21 @@ const routes = [
     path: "/blogs/:blogId",
     name: "BlogDetailPage",
     component: () => import("@/pages/BlogDetailPage.vue")
+  },
+  {
+    path: "/blogs",
+    name: "BlogsPage",
+    component: () => import("@/pages/BlogsPage.vue")
+  },
+  {
+    path: "/events",
+    name: "EventsPage",
+    component: () => import("@/pages/EventsPage.vue")
+  },
+  {
+    path: "/events/:eventId",
+    name: "EventDetailPage",
+    component: () => import("@/pages/EventDetailPage.vue")
   },
 ];
 

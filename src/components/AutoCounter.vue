@@ -1,5 +1,5 @@
 <template>
-    <div  ref="target">{{ counter }}</div>
+    <div  ref="target">{{ counter.toFixed(1) }} </div>
 </template>
 
 <script>

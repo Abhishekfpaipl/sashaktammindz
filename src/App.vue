@@ -1,6 +1,8 @@
 <template>
   <TopNav />
-  <router-view />
+  <transition name="fade">
+    <router-view />
+  </transition>
   <FooterBar />
 </template>
 <script>
@@ -12,16 +14,6 @@ export default {
     TopNav,
     FooterBar,
   },
-  computed: {
-    hide() {
-      const hiddenPages = ['DemoPage1', 'ThankYou', 'LoginPage', 'RegistrationPage', 'free-trial', 'demo-page', 'sales-demo-one', 'sales-demo-two']
-      return hiddenPages.includes(this.$route.name)
-    },
-    hidden() {
-      const hiddenPages = ['DemoPage1', 'ThankYou', 'LoginPage', 'RegistrationPage', 'sales-demo-one', 'sales-demo-two']
-      return hiddenPages.includes(this.$route.name)
-    },
-  }
 }
 </script>
 
@@ -42,5 +34,30 @@ export default {
 
 #scroll::-webkit-scrollbar {
   display: none;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 1s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+.text-ellipsis {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.text-ellipsis3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 </style>

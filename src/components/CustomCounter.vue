@@ -6,7 +6,7 @@
             </div>
             <div :class="{ 'col-12': !image, 'col-12 col-md-8': image }">
                 <div class="row mt-4 text-dark">
-                    <div class="d-flex align-items-center justify-content-between px-5 mb-4">
+                    <div class="d-flex align-items-center justify-content-center gap-5 px-5 mb-4">
                         <h1 class=" text-center text-capitalize mb-0 ms-md-5">{{ title }}</h1>
                         <router-link v-if="path" :to="path" class="text-dark me-md-5">
                             <i class="bi bi-arrow-right fs-1" ></i>
@@ -26,14 +26,6 @@
                                 <AutoCounter :data="categoryCount"> </AutoCounter>&nbsp;+
                             </p>
                             <p class="mt-0 text-capitalize">{{ category }}</p>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="text-center">
-                            <p class="m-0 fs-3 fw-bold d-flex justify-content-center align-items-center">
-                                <AutoCounter :data="placeCount"> </AutoCounter>&nbsp;+
-                            </p>
-                            <p class="mt-0 text-capitalize">{{ place }}</p>
                         </div>
                     </div>
                 </div>

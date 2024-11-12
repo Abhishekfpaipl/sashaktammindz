@@ -44,17 +44,18 @@
                     </div>
                 </div>
             </div>
+
+            <TopicCovered />
         </div>
     </div>
 </template>
 <script>
+import TopicCovered from '@/components/TopicCovered.vue';
 export default {
     name: "ServiceDetailPage",
-    data() {
-        return {
-
-        }
-    },
+    components: {
+        TopicCovered,
+    }, 
     computed: {
         service() {
             let serviceId = this.$route.params.serviceId;

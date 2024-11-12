@@ -2,6 +2,8 @@
     <div class="bg-light py-5">
         <div class="container">
             <h1 class="display-5 mb-5">{{ sectionTitle }}</h1>
+            <router-link to="/events" class="d-flex justify-content-end align-items-center text-decoration-none text-dark mb-3 text-capitalize">see all events <i
+                    class="bi bi-arrow-right ms-2"></i></router-link>
             <div class="row align-items-center">
                 <!-- Left Section -->
                 <div class="col-md-6">
@@ -15,7 +17,7 @@
                         </div>
                     </div>
 
-                    
+
                     <div class="text-start mb-4">
                         <h4>{{ title }}</h4>
                         <p class="text-muted">{{ description }}</p>

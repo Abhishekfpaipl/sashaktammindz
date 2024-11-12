@@ -9,7 +9,7 @@
             <h1 class="text-uppercase mb-4 text-center">Need to get in touch with us?</h1>
             <div class="row">
                 <div class="col-12 col-md-6 d-flex align-items-center justify-content-center">
-                    <img src="/img/contactus.svg" style="width: 500px; max-width: 80%;" alt="">
+                    <img src="/img/contactUs.svg" style="width: 300px; max-width: 80%;" alt="">
                 </div>
                 <div class="col-12 col-md-6 mt-5 mt-md-0 d-flex">
                     <div class="row row-cols-1">
@@ -38,16 +38,14 @@
 
                     </div>
                     <div class="col-12 col-md-6 mt-5 mt-md-0 pt-4 text-center">
-                        <h1 class="text-uppercase my-3">We Believe</h1>
-                        <p class="text-capitalize fs-5 fw-bold">"If you don't take care of your customers, <br> your
-                            competitors
-                            will do!"</p>
-                        <h1 class="text-uppercase cutout my-3"><span>So Relax </span></h1>
-                        <p class="text-capitalize fs-5 fw-bold">"let's build an awesome business together <br>We will
-                            take
-                            care of
-                            you !"</p>
+                        <h1 class="text-uppercase my-3">Our Commitment</h1>
+                        <p class="text-capitalize fs-5 fw-bold">"If you don’t protect your rights, <br> no one else
+                            will!"</p>
+                        <h1 class="text-uppercase cutout my-3"><span>Trust Us</span></h1>
+                        <p class="text-capitalize fs-5 fw-bold">"Let’s navigate your legal challenges together. <br>We
+                            are here to protect and serve you."</p>
                     </div>
+
 
                 </div>
             </div>
@@ -158,22 +156,21 @@ export default {
     content: "";
     position: absolute;
     top: 50%;
-    width: 900px;
-    /* Adjust width as needed */
+    width: 900px; 
     margin: 0 20px;
 }
 
 .cutout>span:before {
     right: 100%;
     border-bottom: 2px solid;
-    border-color: #ffc107;
+    border-color: var(--third-color) ;
     border-image-slice: 1;
 }
 
 .cutout>span:after {
     left: 100%;
     border-bottom: 2px solid;
-    border-color: #ffc107;
+    border-color: var(--third-color);
     border-image-slice: 1;
 }
 </style>

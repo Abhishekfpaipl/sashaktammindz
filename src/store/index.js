@@ -161,6 +161,7 @@ export default createStore({
       {
         name: 'Adv Noopur Singhal',
         sid: 'adv-noopur-singhal',
+        role: 'Founder @ Shashaktam Mindz',
         pronouns: 'She/Her',
         image: '/img/owner.png',
         linkedin: '#',
@@ -178,19 +179,19 @@ export default createStore({
         description: 'Established in January, 2022, सshaktaम्Mindz is a young and dynamic firm to provide Consultancy and Trainings to Organizations and Individuals on Anti-Sexual Harassment Laws - The Sexual Harassment of Women at Workplace (Prevention, Prohibition & Redressal) Act, 2013 and The Protection of Children from Sexual Offences, 2012.',
         statistics: [
           {
-            "value": "1500+",
+            "value": "1500",
             "description": "Organizations assisted with POSH compliance"
           },
           {
-            "value": "150+",
+            "value": "150",
             "description": "Served as IC external member"
           },
           {
-            "value": "500+",
+            "value": "500",
             "description": "Legal opinions issued"
           },
           {
-            "value": "805+",
+            "value": "800",
             "description": "Complaints resolved"
           }
         ]
@@ -199,6 +200,7 @@ export default createStore({
       {
         name: 'Adv. Namrata Mishra',
         sid: 'adv-namrata-mishra',
+        role: 'Founder @ Shashaktam Mindz',
         pronouns: 'She/Her',
         image: '/img/owner2.png',
         linkedin: '#',
@@ -218,19 +220,19 @@ export default createStore({
         description: 'Established in January, 2022, सshaktaम्Mindz is a young and dynamic firm to provide Consultancy and Trainings to Organizations and Individuals on Anti-Sexual Harassment Laws - The Sexual Harassment of Women at Workplace (Prevention, Prohibition & Redressal) Act, 2013 and The Protection of Children from Sexual Offences, 2012.',
         statistics: [
           {
-            "value": "1500+",
+            "value": "1500",
             "description": "Organizations assisted with POSH compliance"
           },
           {
-            "value": "150+",
+            "value": "150",
             "description": "Served as IC external member"
           },
           {
-            "value": "500+",
+            "value": "500",
             "description": "Legal opinions issued"
           },
           {
-            "value": "805+",
+            "value": "800",
             "description": "Complaints resolved"
           }
         ]
@@ -242,6 +244,7 @@ export default createStore({
         "title": "Setting Up of POSH Infrastructure",
         "description": "We help establish a compliant POSH (Prevention of Sexual Harassment) infrastructure within your organization. This includes drafting policies, creating awareness, and forming an internal committee to handle complaints effectively.",
         "sid": "setting-up-of-posh-infrastructure",
+        type: "posh",
         "image": "/img/setup.png",
         "points": [
           "Drafting customized Policy / Review of existing policy to ensure that they are in line with the POSH Act, 2013 and also as per the organizational structure.",
@@ -279,6 +282,7 @@ export default createStore({
         "title": "Trainings and Skill Building under the POSH Act 2013",
         "description": "We provide various training and skill-building programs under the POSH Act, 2013, including employee awareness, internal committee workshops, and leadership training to ensure a harassment-free workplace.",
         "sid": "trainings-and-skill-building-under-posh-act-2013",
+        type: "posh",
         "image": "/img/traningPosh.png",
         "points": [
           "Trainings/Awareness sessions for Employees.",
@@ -319,6 +323,7 @@ export default createStore({
         "title": "Empanelment and Complaint Handling under the POSH Act, 2012",
         "description": "We provide assistance with the empanelment of external members in the internal committee and handle complaints related to sexual harassment, including conducting inquiries and preparing reports.",
         "sid": "empanelment-and-complaint-handling-under-posh-act-2012",
+        type: "posh",
         "image": "/img/complaint.png",
         "points": [
           "Empanelment as an External Member in the Internal Committee, as per provisions of Act.",
@@ -358,6 +363,7 @@ export default createStore({
         "title": "POSH Audit",
         "description": "We conduct a comprehensive POSH audit to ensure your organization's compliance with the POSH Act, review current practices, and assess employee awareness to make the workplace safer.",
         "sid": "posh-audit",
+        type: "posh",
         "image": "/img/poshAudit.png",
         "points": [
           "Organization’s compliance to the POSH Act, 2013.",
@@ -398,6 +404,7 @@ export default createStore({
         "title": "POSCO Setup",
         "description": "We help institutions set up a child protection policy as per the POCSO Act (Protection of Children from Sexual Offences), ensuring safe and compliant environments for children.",
         "sid": "posco-setup",
+        type: "posco",
         "image": "/img/setup.png",
         "points": [
           "Drafting Child Protection Policy for schools."
@@ -433,6 +440,7 @@ export default createStore({
         "title": "Trainings under the POCSO Act, 2012",
         "description": "We offer a variety of training programs under the POCSO Act, 2012, including child protection workshops, awareness sessions for staff and children, and training for school leaders and educators.",
         "sid": "trainings-under-the-pocso-act-2012",
+        type: "posco",
         "image": "/img/traningPosco.png",
         "points": [
           "Awareness session for kids about ‘Safe-Unsafe and Confusing Touch.",
@@ -473,6 +481,7 @@ export default createStore({
         "title": "POSCO Audit",
         "description": "Our POSCO audit ensures compliance with the POCSO Act, 2012, and assesses practices in schools and institutions to safeguard children from abuse and exploitation.",
         "sid": "posco-audit",
+        type: "posco",
         "image": "/img/poscoAudit.png",
         "points": [
           "Institution's compliance to POCSO Act, 2012 and POCSO Rules 2020.",
@@ -579,6 +588,42 @@ export default createStore({
         description: 'As we look to the future, the journey of POSH will require continuous navigation through the ever-changing skies of workplace...',
         category: 'training'
       }
+    ],
+    events: [
+      {
+        id: 1,
+        date: '12 June 2024',
+        location: 'Delhi',
+        title: 'POSH Summit 2024',
+        sid: 'posh-summit-2024',
+        description: 'The annual POSH Summit brings together experts, schools, and institutions to discuss best practices, share insights, and schools, and institutions to discuss best practices, share  ',
+        image: 'https://www.nomeansno.in/wp-content/uploads/2024/12/POSHSummit2024.jpg',
+        videoUrl: 'https://www.youtube.com/watch?v=pf-GH6yaVWQ',
+        type: 'event'
+      },
+      {
+        id: 2,
+        date: '20 DECEMBER 2023',
+        location: 'Delhi',
+        title: 'POSH Summit 2023',
+        sid: 'posh-summit-2023',
+        description: 'The annual POSH Summit brings together experts, schools, and institutions to discuss best practices, share insights, and schools, and institutions to discuss best practices, share ',
+        image: 'https://www.nomeansno.in/wp-content/uploads/2024/12/POSHSummit2024.jpg',
+        videoUrl: 'https://www.youtube.com/watch?v=pf-GH6yaVWQ',
+        type: 'event'
+      },
+      {
+        id: 2,
+        date: '12-13 DECEMBER 2024',
+        location: 'Mumbai',
+        title: 'Batch 4 - Registrations',
+        sid: 'batch-4-registration',
+        upcoming:true,
+        description: 'Embark on an in-depth journey to master the complexities of conducting PoSH investigations with our comprehensive two-day workshop. Dive into the intricacies of evidence collection, witness examination, and the art of balancing the Principles of Natural Justice with practical, hands-on exercises, including two mock investigations and live report writing sessions',
+        image: 'https://www.nomeansno.in/wp-content/uploads/2024/12/POSHSummit2024.jpg',
+        videoUrl: 'https://www.youtube.com/watch?v=pf-GH6yaVWQ',
+        type: 'event'
+      },
     ]
   },
   getters: {
@@ -598,6 +643,11 @@ export default createStore({
     getPost: (state) => (postId) => {
       let index = state.posts.findIndex(post => post.sid == postId);
       return state.posts[index];
+    },
+    getEvents: state => state.events,
+    getEvent:(state)=>(eventId)=>{
+      let index = state.events.findIndex(event => event.sid == eventId);
+      return state.events[index];
     }
   },
   mutations: {},

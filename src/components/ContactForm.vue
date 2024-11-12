@@ -17,7 +17,7 @@
             </div>
 
             <div class="col-12">
-                <button class="btn btn-warning py-2 w-100" type="submit"><i class="bi bi-whatsapp me-2"></i> <span
+                <button class="btn py-2 w-100" type="submit" style="background-color: var(--third-color); color: var(--primary-color)"><i class="bi bi-whatsapp me-2"></i> <span
                         class="text-uppercase">Enquiry</span></button>
             </div>
         </form>
