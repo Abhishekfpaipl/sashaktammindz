@@ -19,7 +19,7 @@ export default {
         return {
             reels: [], // Array to hold reel data
             // accessToken: 'IGQWRQV01tekNaRHp0Q0lRTFZAQN1I0WHVFTDZAmR21SYUkzSVlaVnBlelNiVHU4VEI1dThPalljTE9lRko4eWZAISENaN21fdFhuZAnVkc0tpVVVRZAHdSLWU1WmMzZAWFBbHB4ZAFN1eFAwdHJNd3JoaVhpUzFEclJzODgZD', // Insert your short-term access token here
-            accessToken: 'IGQWRQeE1yS3Qtd1E2UUV2Y21MUXdURUlVNnFCcjU3NnNTTzdRM3hQRjN6SWxrdzJGTF9zOU1Pa3BYS2FTclpJWkFtLWVxUXp2STVmdmROalpvTTdVVFQtcG4zb2xLSDBNNkwySE1zNjNHVnQ5ZAlllblc3RS1oX3MZD'
+            accessToken: 'IGQWRQcmVKQzBrbm1JUE5TbGZALcXBCVmtMMFU5NlBFajJwYlFZAX29YX1NLRTRMeHgyRTQ4b0ZAhZAmxhaEZAxQ05lYWtxeGsyT1pwS1QyREJoUFhVN0V2NGZAQMHVyNTNmZAkdTV0x0cWtXSU9Tc0NYZAVd5NlFVY0pDcDgZD'
         };
     },
     methods: {
