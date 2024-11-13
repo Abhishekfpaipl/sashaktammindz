@@ -1,8 +1,8 @@
 <template>
     <div class="banner-container">
-        <img src="/img/sectionBanner.jpg" alt="Product Banner" class="banner-image">
+        <img src="/img/newSection.png" alt="Product Banner" class="banner-image">
         <div class="overlay">
-            <h1 class="display-1 banner-title">{{ pageName }}</h1>
+            <h1 class="display-4 banner-title">{{ pageName }}</h1>
         </div>
     </div>
 </template>
@@ -30,7 +30,7 @@ export default {
 
 .banner-image {
     width: 100%;
-    height: 400px;
+    /* height: 400px; */
     object-fit: cover;
 }
 

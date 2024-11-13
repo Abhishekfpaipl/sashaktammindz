@@ -47,20 +47,5 @@ export default {
 </script>
 
 <style scoped>
-@keyframes slideRight {
-
-    0%,
-    100% {
-        transform: translateX(0);
-    }
-
-    50% {
-        transform: translateX(5px);
-    }
-}
-
-.visit {
-    display: inline-block;
-    animation: slideRight 1.5s ease-in-out infinite;
-}
+ 
 </style>

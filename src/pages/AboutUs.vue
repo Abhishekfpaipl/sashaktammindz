@@ -1,5 +1,6 @@
 <template>
     <div style="padding-top: 64px;">
+        <SectionTopBanner/>
         <div class="container pb-5 mb-5">
             <div class="row justify-content-center align-items-center">
                 <div class="col-md-6">
@@ -26,6 +27,7 @@
 import TeamSection from '@/components/TeamSection.vue';
 import AutoScrolling from '@/components/AutoScrolling.vue';
 import AboutReportSection from '@/components/AboutReportSection.vue';
+import SectionTopBanner from '@/components/SectionTopBanner.vue';
 
 export default {
     name: "AboutUs",
@@ -33,6 +35,7 @@ export default {
         TeamSection,
         AutoScrolling,
         AboutReportSection,
+        SectionTopBanner,
     },
     data() {
         return {

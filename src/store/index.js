@@ -154,8 +154,103 @@ export default createStore({
             answer: "Any woman working in or visiting a workplace, whether as an employee, visitor, intern, or in another capacity, can file a complaint."
           }
         ]
+      },
+      {
+        id: 3,
+        name: "POCSO Act Overview",
+        plans: [
+          {
+            "question": "What is the POCSO Act?",
+            "answer": "The Protection of Children from Sexual Offences (POCSO) Act, 2012, is a comprehensive law to protect children from sexual assault, sexual harassment, and pornography, while safeguarding the interests of the child at every stage of the judicial process."
+          },
+          {
+            "question": "What is the age limit under the POCSO Act?",
+            "answer": "The POCSO Act applies to offenses committed against any child under the age of 18 years."
+          },
+          {
+            "question": "Is the POCSO Act gender-neutral?",
+            "answer": "Yes, the POCSO Act is gender-neutral and applies to any child under the age of 18, irrespective of gender."
+          },
+          {
+            "question": "What are the main offenses under the POCSO Act?",
+            "answer": "The main offenses under the POCSO Act include penetrative sexual assault, aggravated penetrative sexual assault, sexual assault, aggravated sexual assault, and sexual harassment of children."
+          },
+          {
+            "question": "What are the penalties under the POCSO Act?",
+            "answer": "The penalties vary by offense, with serious offenses like aggravated penetrative sexual assault punishable by life imprisonment or even death, while other offenses may have penalties of up to 5-7 years of imprisonment and fines."
+          }
+        ]
+      },
+      {
+        id: 4,
+        name: "POCSO Reporting and Legal Procedures",
+        plans: [
+          {
+            "question": "How can one report a POCSO offense?",
+            "answer": "Anyone can report a POCSO offense to the police, Child Welfare Committee, or Special Juvenile Police Unit. The report can be made verbally or in writing, and mandatory reporting is required by law."
+          },
+          {
+            "question": "Is it mandatory to report POCSO cases?",
+            "answer": "Yes, reporting of POCSO cases is mandatory under the law, and failure to report a case can result in legal consequences."
+          },
+          {
+            "question": "What are the child-friendly procedures under POCSO?",
+            "answer": "The POCSO Act mandates child-friendly procedures such as recording the statement of the child in safe spaces, avoiding contact with the accused, and providing support from professionals during investigations."
+          },
+          {
+            "question": "Can a child be cross-examined during trial?",
+            "answer": "The POCSO Act restricts direct cross-examination of a child by the accused or defense lawyer to ensure a comfortable environment for the child."
+          },
+          {
+            "question": "Who conducts the trial under the POCSO Act?",
+            "answer": "The trial is conducted by Special Courts designated for POCSO cases to ensure speedy and sensitive handling of cases involving child victims."
+          }
+        ]
+      },
+      {
+        id: 5,
+        name: "POCSO Protection and Rehabilitation",
+        plans: [
+          {
+            "question": "What protection is provided to victims under the POCSO Act?",
+            "answer": "The Act provides protection to the victim and family, including confidentiality of identity, support services, and protection from intimidation by the accused."
+          },
+          {
+            "question": "What rehabilitation services are available for victims?",
+            "answer": "Victims are entitled to counseling, medical care, and rehabilitation services, provided by Child Welfare Committees and NGOs to aid in their recovery."
+          },
+          {
+            "question": "Is there financial compensation for POCSO victims?",
+            "answer": "Yes, the victim or family can seek compensation through legal provisions or victim compensation schemes for rehabilitation and medical expenses."
+          },
+          {
+            "question": "How does POCSO ensure victim confidentiality?",
+            "answer": "Under the POCSO Act, disclosure of a child’s identity in the media or any public forum is strictly prohibited, and violators are subject to penalties."
+          }
+        ]
+      },
+      {
+        id: 6,
+        name: "POCSO Awareness and Training",
+        plans: [
+          {
+            "question": "Why is POCSO Act awareness important?",
+            "answer": "Awareness is crucial to prevent child sexual abuse, ensure reporting of cases, and educate the public on safeguarding children’s rights and welfare."
+          },
+          {
+            "question": "Is POCSO training mandatory for schools?",
+            "answer": "Yes, many states mandate that schools and educational institutions provide POCSO training for staff and students to help prevent and report abuse."
+          },
+          {
+            "question": "What is the role of NGOs in POCSO awareness?",
+            "answer": "NGOs play a vital role in spreading awareness, providing training, and assisting victims with support and rehabilitation under the POCSO Act."
+          },
+          {
+            "question": "How can I access POCSO resources?",
+            "answer": "You can access resources through government websites, Childline India, NGOs, and local child welfare offices for materials on child protection and POCSO law."
+          }
+        ]
       }
-
     ],
     profiles: [
       {
@@ -618,7 +713,7 @@ export default createStore({
         location: 'Mumbai',
         title: 'Batch 4 - Registrations',
         sid: 'batch-4-registration',
-        upcoming:true,
+        upcoming: true,
         description: 'Embark on an in-depth journey to master the complexities of conducting PoSH investigations with our comprehensive two-day workshop. Dive into the intricacies of evidence collection, witness examination, and the art of balancing the Principles of Natural Justice with practical, hands-on exercises, including two mock investigations and live report writing sessions',
         image: 'https://www.nomeansno.in/wp-content/uploads/2024/12/POSHSummit2024.jpg',
         videoUrl: 'https://www.youtube.com/watch?v=pf-GH6yaVWQ',
@@ -645,7 +740,7 @@ export default createStore({
       return state.posts[index];
     },
     getEvents: state => state.events,
-    getEvent:(state)=>(eventId)=>{
+    getEvent: (state) => (eventId) => {
       let index = state.events.findIndex(event => event.sid == eventId);
       return state.events[index];
     }

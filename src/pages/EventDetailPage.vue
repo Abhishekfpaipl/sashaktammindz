@@ -1,12 +1,12 @@
 <template>
     <div style="padding-top: 64px;">
         <SectionTopBanner />
-        <div class="container my-5">
+        <div class="container pb-5 my-5">
             <div class="d-flex justify-content-between align-items-center mb-3">
                 <div class="fs-4">{{ event.date }}</div>
                 <div class="fs-4">{{ event.location }}</div>
             </div>
-            <div class="ratio ratio-16x9">
+            <div class="ratio ratio-16x9" style="height: 400px;">
                 <iframe :src="formattedVideoUrl(event.videoUrl)" title="Workshop Video" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>

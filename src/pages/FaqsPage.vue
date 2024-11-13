@@ -1,5 +1,5 @@
 <template>
-    <div >
+    <div style="padding-top: 64px;">
         <div class="text-center fw-bold py-5 text-white" style="background-color: var(--primary-color);">
             <h1 class="text-center mb-4">Frequently Asked Questions</h1>
         </div>
@@ -7,7 +7,7 @@
             <ul class="nav nav-pills justify-content-start align-items-center" id="pills-tab" role="tablist">
                 <div class="d-flex overflow-x-scroll gap-3 my-3 p-2 px-3 rounded" id="scroll">
                     <li class="nav-item border rounded" role="presentation" v-for="(price, index) in faqs" :key="index">
-                        <button class="nav-link" style="white-space: nowrap"
+                        <button class="nav-link text-dark" style="white-space: nowrap"
                             :class="{ 'active': index === activeTabIndex }" :id="'tab-' + index" data-bs-toggle="pill"
                             :data-bs-target="'#content-' + index" type="button" role="tab"
                             :aria-controls="'content-' + index" :aria-selected="index === activeTabIndex"
@@ -105,7 +105,7 @@ export default {
 
 .nav-link.active {
     background-color: var(--primary-color) !important;
-    color: white;
+    color: white !important;
     transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
 }
 </style>

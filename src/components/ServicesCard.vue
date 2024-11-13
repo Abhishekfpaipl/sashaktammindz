@@ -1,11 +1,11 @@
 <template>
-    <div class="container py-5">
+    <div class="py-5">
 
         <h1 class="text-center mb-5">{{ title }}</h1>
         <ul class="nav nav-pills mb-4 justify-content-center justify-content-md-center overflow-x-scroll flex-nowrap"
             id="scroll" style="white-space: nowrap;" role="tablist">
             <li class="nav-item" v-for="(type, index) in types" :key="index">
-                <button class="nav-link text-muted rounded-pill" :class="{ active: selectedType === type.sid }"
+                <button class="nav-link text-muted rounded" :class="{ active: selectedType === type.sid }"
                     @click="selectedType = type.sid">
                     {{ type.title }}
                 </button>
@@ -18,12 +18,13 @@
                         style="background-color: var(--third-color);">
                         <div class="col-lg-6 text-center bg-white pt-5 pt-md-0"
                             :class="{ 'order-lg-0': index % 2 === 0, 'order-lg-1': index % 2 !== 0 }">
-                            <p class="text-center fs-3 text-capitalize">{{ service.title }}</p>
+                            <p class="d-md-none d-block text-center fs-3 text-capitalize">{{ service.title }}</p>
                             <img :src="service.image" class="img-fluid" :alt="service.title">
                         </div>
 
                         <!-- service Details -->
                         <div class="col-lg-6">
+                            <p class="d-md-block d-none text-center fs-3 text-capitalize">{{ service.title }}</p>
                             <div class="p-2 text-start">
                                 <p class="mt-2 mb-4 text-muted">{{ service.description }}</p>
                                 <ul class="list-styled mb-4">
@@ -35,7 +36,7 @@
                                 <div class="text-center">
                                     <router-link :to="'/' + service.sid" class=" btn text-white"
                                         style="background-color: var(--primary-color);">
-                                        Read more <i class="bi bi-arrow-right"></i>
+                                        Read more <i class="bi bi-arrow-right visit"></i>
                                     </router-link>
                                 </div>
                             </div>

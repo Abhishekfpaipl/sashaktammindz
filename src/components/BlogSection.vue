@@ -7,7 +7,7 @@
                 </button>
             </li>
         </ul>
-        <router-link to="/blogs" class="d-flex justify-content-end align-items-center mb-2 text-decoration-none text-dark">See Blogs <i class="bi bi-arrow-right ms-2"></i></router-link>
+        <router-link to="/blogs" class="d-flex justify-content-end align-items-center mb-2 text-decoration-none text-dark">See Blogs <i class="bi bi-arrow-right ms-2 visit"></i></router-link>
         <div class="tab-content">
             <div class="tab-pane fade show active">
                 <div class="row g-4">
@@ -22,7 +22,7 @@
                                     <span>{{ post.comments }} Comments</span>
                                 </div>
                                 <p class="card-text">{{ post.description }}</p>
-                                <p class="" style="color: var(--primary-color);">Read more <i class="bi bi-arrow-right"></i></p>
+                                <p class="" style="color: var(--primary-color);">Read more <i class="bi bi-arrow-right visit"></i></p>
                             </div>
                         </router-link>
                     </div>

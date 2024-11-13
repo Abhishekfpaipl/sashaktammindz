@@ -3,7 +3,7 @@
         <div class="container">
             <h1 class="display-5 mb-5">{{ sectionTitle }}</h1>
             <router-link to="/events" class="d-flex justify-content-end align-items-center text-decoration-none text-dark mb-3 text-capitalize">see all events <i
-                    class="bi bi-arrow-right ms-2"></i></router-link>
+                    class="bi bi-arrow-right ms-2 visit"></i></router-link>
             <div class="row align-items-center">
                 <!-- Left Section -->
                 <div class="col-md-6">

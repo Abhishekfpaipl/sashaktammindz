@@ -1,11 +1,7 @@
 <template>
     <div style="padding-top: 64px;">
-        <div class="text-white py-5" style=" background-color:var(--primary-color) ;padding-bottom: 6rem !important;"
-            v-observe>
-            <h1 class="text-center mb-0 fw-bold">Contact Page</h1>
-            <p class="small mb-0 text-capitalize text-center">The secret of getting ahead, is getting started</p>
-        </div>
-        <div class="container bg-white rounded-top-5 py-5" style="margin-top: -40px;" v-observe>
+        <SectionTopBanner/>
+        <div class="container bg-white rounded-top-5 py-5" v-observe>
             <h1 class="text-uppercase mb-4 text-center">Need to get in touch with us?</h1>
             <div class="row">
                 <div class="col-12 col-md-6 d-flex align-items-center justify-content-center">
@@ -55,10 +51,12 @@
 
 <script>
 import ContactForm from "@/components/ContactForm.vue";
+import SectionTopBanner from "@/components/SectionTopBanner.vue";
 export default {
     name: "ContactPage",
     components: {
         ContactForm,
+        SectionTopBanner,
     },
     data() {
         return {

@@ -1,5 +1,6 @@
 <template>
     <div style="padding-top: 64px;">
+        <SectionTopBanner/>
         <div class="container mb-5 py-5">
             <ul class="nav nav-pills mb-4 justify-content-start justify-content-md-center overflow-x-scroll flex-nowrap"
                 id="scroll" style="white-space: nowrap;" role="tablist">
@@ -38,8 +39,13 @@
 </template>
 
 <script>
+import SectionTopBanner from '@/components/SectionTopBanner.vue';
+
 export default {
     name: 'BlogSection',
+    components: {
+        SectionTopBanner,
+    },
     data() {
         return {
             activeTab: 'all',

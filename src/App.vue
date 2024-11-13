@@ -45,6 +45,7 @@ export default {
 .fade-leave-to {
   opacity: 0;
 }
+
 .text-ellipsis {
   display: -webkit-box;
   -webkit-line-clamp: 1;
@@ -59,5 +60,31 @@ export default {
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.form-control {
+  box-shadow: none !important;
+}
+
+.accordion-button:focus {
+  z-index: 3;
+  outline: 0;
+  box-shadow: none !important;
+} 
+@keyframes slideRight {
+
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(5px);
+  }
+}
+
+.visit {
+  display: inline-block;
+  animation: slideRight 1.5s ease-in-out infinite;
 }
 </style>

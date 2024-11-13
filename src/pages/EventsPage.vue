@@ -1,5 +1,6 @@
 <template>
     <div style="padding-top: 64px;">
+        <SectionTopBanner />
         <div class="container py-5 mb-5">
             <h1 class="text-center display-6 mb-5">Events</h1>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-2 mb-5">
@@ -39,9 +40,12 @@
 </template>
 
 <script>
+import SectionTopBanner from '@/components/SectionTopBanner.vue';
 export default {
     name: 'EventSection',
-
+    components: {
+        SectionTopBanner,
+    },
     computed: {
         events() {
             return this.$store.getters.getEvents;

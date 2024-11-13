@@ -3,8 +3,8 @@
         <!-- <Banner brandColorOne="#125252" v-observe /> -->
         <ImageTextSection image-src="/img/bannerNew.jpg" title="" :typingAnimation="false" heading="sashaktam mindz"
             subHeading="Let's create a safer workspace together" :button="true" buttonText="Take Demo"
-            buttonRoute="/free-trial" :button2="true" buttonText2="Talk To Us"
-            buttonRoute2="/contact-us" image-alt="posh" :points="bannerPoints" text="" :imageFirst="false" />
+            buttonRoute="/free-trial" :button2="true" buttonText2="Talk To Us" buttonRoute2="/contact-us"
+            image-alt="posh" :points="bannerPoints" text="" :imageFirst="false" />
         <EventSection logoUrl="/img/logo.png" sectionTitle="Upcoming Events" dates="12-13 DECEMBER 2024"
             location="Mumbai" title="Batch 4 - Registrations"
             description="Embark on an in-depth journey to master the complexities of conducting PoSH investigations with our comprehensive two-day workshop. Dive into the intricacies of evidence collection, witness examination, and the art of balancing the Principles of Natural Justice with practical, hands-on exercises, including two mock investigations and live report writing sessions."
@@ -25,23 +25,23 @@
             <TeamSection imagePosition="right" :profiles="profiles" />
         </div>
         <div class="">
-            <TextSection
-                image-src="/img/faq.svg"
-                title="Frequently asked questions"
+            <TextSection image-src="/img/faq.svg" title="Frequently asked questions"
                 description="Find answers to your most common questions in our FAQs section. We’ve compiled helpful information to guide you. If you can’t find what you're looking for, feel free to reach out to our team for further assistance!"
                 routeLink="/faqs" imagePosition="right" v-observe />
         </div>
         <div class="">
             <CustomCounter service="satisfied customers" :serviceCount="800" category="Employees Trained"
-                :categoryCount="400"
-                image="/img/happyCustomers.jpg"
-                title="What we have done" path="/about-us" v-observe />
+                :categoryCount="400" image="/img/happyCustomers.jpg" title="What we have done" path="/about-us"
+                v-observe />
         </div>
         <div class="my-5">
             <NewGallerySection :images="gallery" title="Gallery" />
         </div>
         <div class="my-5">
             <NewGallerySection :images="awards" title="Certificates" />
+        </div>
+        <div class="">
+            <TestSection />
         </div>
     </div>
 </template>
@@ -56,6 +56,7 @@ import BlogSection from "@/components/BlogSection.vue";
 import ServicesCard from "@/components/ServicesCard.vue";
 import NewGallerySection from "@/components/NewGallerySection.vue";
 import TextSection from "@/components/TextSection.vue";
+import TestSection from "@/components/TestSection.vue";
 export default {
     name: "HomePage",
     components: {
@@ -69,6 +70,7 @@ export default {
         ServicesCard,
         NewGallerySection,
         TextSection,
+        TestSection,
     },
     data() {
         return {
@@ -86,7 +88,7 @@ export default {
                 "/img/certificates/1.png",
                 "/img/certificates/2.png",
                 "/img/certificates/3.png",
-            ], 
+            ],
         }
     },
     computed: {
