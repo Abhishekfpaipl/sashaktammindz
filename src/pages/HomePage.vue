@@ -12,6 +12,9 @@
         <BlogSection />
 
         <ServicesCard />
+        <div class="">
+            <TrainingCard />
+        </div>
 
         <div class="">
             <TextSection image-src="/img/consultation.jpg" title="free consultation"
@@ -42,6 +45,7 @@
         </div>
         <div class="">
             <TestSection />
+
         </div>
     </div>
 </template>
@@ -57,6 +61,7 @@ import ServicesCard from "@/components/ServicesCard.vue";
 import NewGallerySection from "@/components/NewGallerySection.vue";
 import TextSection from "@/components/TextSection.vue";
 import TestSection from "@/components/TestSection.vue";
+import TrainingCard from "@/components/TrainingCard.vue";
 export default {
     name: "HomePage",
     components: {
@@ -71,6 +76,7 @@ export default {
         NewGallerySection,
         TextSection,
         TestSection,
+        TrainingCard,
     },
     data() {
         return {
@@ -98,6 +104,4 @@ export default {
     }
 }
 </script>
-<style lang="">
-
-</style>
+<style scoped></style>

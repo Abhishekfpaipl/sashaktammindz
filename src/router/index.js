@@ -71,6 +71,11 @@ const routes = [
     name: "EventDetailPage",
     component: () => import("@/pages/EventDetailPage.vue")
   },
+  {
+    path: "/training/:trainingId",
+    name: "TrainingDetailPage",
+    component: () => import("@/pages/TrainingDetailPage.vue")
+  },
 ];
 
 const router = createRouter({

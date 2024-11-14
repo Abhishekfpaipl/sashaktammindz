@@ -3,6 +3,12 @@
   <transition name="fade">
     <router-view />
   </transition>
+  <a href="https://www.google.com/maps/place/Kamniyata+Skin+Centre-+Best+Laser+Hair+Reduction+in+Delhi,+Skin+Whitening,+Hydra+Facial%2FPRP+Hair+Treatment+North+Delhi/@28.685547,77.1664758,17z/data=!3m1!4b1!4m6!3m5!1s0x390d03dda6b498d9:0x8933d95b6a5803c6!8m2!3d28.685547!4d77.1664758!16s%2Fg%2F11ry9bkltn?entry=ttu&g_ep=EgoyMDI0MTExMS4wIKXMDSoASAFQAw%3D%3D"
+    class="query slide d-flex flex-column align-items-center justify-content-center border rounded px-2 text-decoration-none"
+    style="background-color: #F7138E;">
+    <i class="bi bi-telephone text-white"></i>
+    <p class="text-uppercase fw-bold mb-0 smaller text-white">skin</p>
+  </a>
   <FooterBar />
 </template>
 <script>
@@ -53,6 +59,13 @@ export default {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+.text-ellipsis2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 
 .text-ellipsis3 {
   display: -webkit-box;
@@ -70,7 +83,8 @@ export default {
   z-index: 3;
   outline: 0;
   box-shadow: none !important;
-} 
+}
+
 @keyframes slideRight {
 
   0%,
@@ -86,5 +100,34 @@ export default {
 .visit {
   display: inline-block;
   animation: slideRight 1.5s ease-in-out infinite;
+}
+
+.query {
+  z-index: 90;
+  position: fixed;
+  bottom: 10%;
+  right: 10px;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+@keyframes slideTop {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(5px);
+  }
+}
+
+.slide {
+  display: inline-block;
+  animation: slideTop 1.5s ease-in-out infinite;
 }
 </style>
