@@ -3,29 +3,36 @@
   <transition name="fade">
     <router-view />
   </transition>
-  <a href="https://www.google.com/maps/place/Kamniyata+Skin+Centre-+Best+Laser+Hair+Reduction+in+Delhi,+Skin+Whitening,+Hydra+Facial%2FPRP+Hair+Treatment+North+Delhi/@28.685547,77.1664758,17z/data=!3m1!4b1!4m6!3m5!1s0x390d03dda6b498d9:0x8933d95b6a5803c6!8m2!3d28.685547!4d77.1664758!16s%2Fg%2F11ry9bkltn?entry=ttu&g_ep=EgoyMDI0MTExMS4wIKXMDSoASAFQAw%3D%3D"
+  <!-- <a href="https://www.google.com/maps/place/Kamniyata+Skin+Centre-+Best+Laser+Hair+Reduction+in+Delhi,+Skin+Whitening,+Hydra+Facial%2FPRP+Hair+Treatment+North+Delhi/@28.685547,77.1664758,17z/data=!3m1!4b1!4m6!3m5!1s0x390d03dda6b498d9:0x8933d95b6a5803c6!8m2!3d28.685547!4d77.1664758!16s%2Fg%2F11ry9bkltn?entry=ttu&g_ep=EgoyMDI0MTExMS4wIKXMDSoASAFQAw%3D%3D"
     class="query slide d-flex flex-column align-items-center justify-content-center border rounded px-2 text-decoration-none"
     style="background-color: #F7138E;">
     <i class="bi bi-telephone text-white"></i>
-    <p class="text-uppercase fw-bold mb-0 smaller text-white">skin</p>
-  </a>
+  </a> -->
+  <div class="query slide" data-bs-toggle="modal" data-bs-target="#welcomeModal">
+    <img src="/img/raise.svg" alt="raise" class="rounded-circle" style="width: 50px; height: 50px;">
+    <p class="text-uppercase fw-bold mb-0 smaller text-dark">Raise</p>
+  </div>
   <FooterBar />
+  <WelcomeModal />
 </template>
 <script>
 import TopNav from '@/components/TopNav.vue';
 import FooterBar from '@/components/FooterBar.vue';
+import WelcomeModal from '@/components/WelcomeModal.vue';
 export default {
   name: 'App',
   components: {
     TopNav,
     FooterBar,
+    WelcomeModal,
   },
 }
 </script>
 
 <style lang="scss">
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -59,6 +66,7 @@ export default {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
 .text-ellipsis2 {
   display: -webkit-box;
   -webkit-line-clamp: 2;

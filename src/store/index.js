@@ -339,87 +339,46 @@ export default createStore({
         "title": "Setting Up of POSH Infrastructure",
         "description": "We help establish a compliant POSH (Prevention of Sexual Harassment) infrastructure within your organization. This includes drafting policies, creating awareness, and forming an internal committee to handle complaints effectively.",
         "sid": "setting-up-of-posh-infrastructure",
-        type: "posh",
-        "image": "/img/setup.png",
+        "type": "posh",
+        "image": "/img/servicesImages/poshInfra.svg",
         "points": [
           "Drafting customized Policy / Review of existing policy to ensure that they are in line with the POSH Act, 2013 and also as per the organizational structure.",
           "Creation of Awareness Posters for workplace.",
           "Formation of Internal Committee – Provide guidance to select right persons to be members of Internal Committee and Documentation to be followed."
         ],
-        services: [
+        "services": [
           {
-            id: 1,
-            icon: 'bi-person-check',
-            title: 'Employee Empowerment',
-            description: 'Employee POSH Training'
+            "id": 1,
+            "icon": 'bi-person-check',
+            "title": 'Employee Empowerment',
+            "description": 'Employee POSH Training'
           },
           {
-            id: 2,
-            icon: 'bi-people-fill',
-            title: 'Committee Proficiency',
-            description: 'POSH Committee Training'
+            "id": 2,
+            "icon": 'bi-people-fill',
+            "title": 'Committee Proficiency',
+            "description": 'POSH Committee Training'
           },
           {
-            id: 3,
-            icon: 'bi-gear-wide-connected',
-            title: 'External Ally Inclusion',
-            description: 'External Member Empanelment for POSH'
+            "id": 3,
+            "icon": 'bi-gear-wide-connected',
+            "title": 'External Ally Inclusion',
+            "description": 'External Member Empanelment for POSH'
           },
           {
-            id: 4,
-            icon: 'bi-shield-check',
-            title: 'Documentation Assurance',
-            description: 'Ensuring POSH Compliance'
+            "id": 4,
+            "icon": 'bi-shield-check',
+            "title": 'Documentation Assurance',
+            "description": 'Ensuring POSH Compliance'
           }
         ]
       },
-      // {
-      //   "title": "Trainings and Skill Building under the POSH Act 2013",
-      //   "description": "We provide various training and skill-building programs under the POSH Act, 2013, including employee awareness, internal committee workshops, and leadership training to ensure a harassment-free workplace.",
-      //   "sid": "trainings-and-skill-building-under-posh-act-2013",
-      //   type: "posh",
-      //   "image": "/img/traningPosh.png",
-      //   "points": [
-      //     "Trainings/Awareness sessions for Employees.",
-      //     "Capability Building Workshop for Members of Internal Committee.",
-      //     "Train the Trainer.",
-      //     "Cyber safety training for online sexual harassment.",
-      //     "Leadership awareness session for Top Management and HR.",
-      //     "Active Bystander Training."
-      //   ],
-      //   services: [
-      //     {
-      //       id: 1,
-      //       icon: 'bi-person-check',
-      //       title: 'Employee Empowerment',
-      //       description: 'Employee POSH Training'
-      //     },
-      //     {
-      //       id: 2,
-      //       icon: 'bi-people-fill',
-      //       title: 'Committee Proficiency',
-      //       description: 'POSH Committee Training'
-      //     },
-      //     {
-      //       id: 3,
-      //       icon: 'bi-gear-wide-connected',
-      //       title: 'External Ally Inclusion',
-      //       description: 'External Member Empanelment for POSH'
-      //     },
-      //     {
-      //       id: 4,
-      //       icon: 'bi-shield-check',
-      //       title: 'Documentation Assurance',
-      //       description: 'Ensuring POSH Compliance'
-      //     }
-      //   ]
-      // },
       {
         "title": "Empanelment and Complaint Handling under the POSH Act, 2012",
         "description": "We provide assistance with the empanelment of external members in the internal committee and handle complaints related to sexual harassment, including conducting inquiries and preparing reports.",
         "sid": "empanelment-and-complaint-handling-under-posh-act-2012",
-        type: "posh",
-        "image": "/img/complaint.png",
+        "type": "posh",
+        "image": "/img/servicesImages/complaint.svg",
         "points": [
           "Empanelment as an External Member in the Internal Committee, as per provisions of Act.",
           "Empanelment as Presiding Officer of Internal Committee where there is no woman employee at senior level management.",
@@ -427,30 +386,30 @@ export default createStore({
           "Monitor functioning of Internal Committee, ensure meetings held on timely basis and got documented as per Act.",
           "Redressal of Complaints, Conducting Inquiry and Report Writing."
         ],
-        services: [
+        "services": [
           {
-            id: 1,
-            icon: 'bi-person-check',
-            title: 'Employee Empowerment',
-            description: 'Employee POSH Training'
+            "id": 1,
+            "icon": 'bi-person-check',
+            "title": 'Employee Empowerment',
+            "description": 'Employee POSH Training'
           },
           {
-            id: 2,
-            icon: 'bi-people-fill',
-            title: 'Committee Proficiency',
-            description: 'POSH Committee Training'
+            "id": 2,
+            "icon": 'bi-people-fill',
+            "title": 'Committee Proficiency',
+            "description": 'POSH Committee Training'
           },
           {
-            id: 3,
-            icon: 'bi-gear-wide-connected',
-            title: 'External Ally Inclusion',
-            description: 'External Member Empanelment for POSH'
+            "id": 3,
+            "icon": 'bi-gear-wide-connected',
+            "title": 'External Ally Inclusion',
+            "description": 'External Member Empanelment for POSH'
           },
           {
-            id: 4,
-            icon: 'bi-shield-check',
-            title: 'Documentation Assurance',
-            description: 'Ensuring POSH Compliance'
+            "id": 4,
+            "icon": 'bi-shield-check',
+            "title": 'Documentation Assurance',
+            "description": 'Ensuring POSH Compliance'
           }
         ]
       },
@@ -458,8 +417,8 @@ export default createStore({
         "title": "POSH Audit",
         "description": "We conduct a comprehensive POSH audit to ensure your organization's compliance with the POSH Act, review current practices, and assess employee awareness to make the workplace safer.",
         "sid": "posh-audit",
-        type: "posh",
-        "image": "/img/poshAudit.png",
+        "type": "posh",
+        "image": "/img/servicesImages/audit.svg",
         "points": [
           "Organization’s compliance to the POSH Act, 2013.",
           "Review of current practices followed and best practices to be adopted to make workplace safer.",
@@ -468,116 +427,173 @@ export default createStore({
           "Audit of contracts for POSH compliance.",
           "Readiness of Organization to provide information and handle POSH inspections as provided under Section 25 of POSH Act."
         ],
-        services: [
+        "services": [
           {
-            id: 1,
-            icon: 'bi-person-check',
-            title: 'Employee Empowerment',
-            description: 'Employee POSH Training'
+            "id": 1,
+            "icon": 'bi-person-check',
+            "title": 'Employee Empowerment',
+            "description": 'Employee POSH Training'
           },
           {
-            id: 2,
-            icon: 'bi-people-fill',
-            title: 'Committee Proficiency',
-            description: 'POSH Committee Training'
+            "id": 2,
+            "icon": 'bi-people-fill',
+            "title": 'Committee Proficiency',
+            "description": 'POSH Committee Training'
           },
           {
-            id: 3,
-            icon: 'bi-gear-wide-connected',
-            title: 'External Ally Inclusion',
-            description: 'External Member Empanelment for POSH'
+            "id": 3,
+            "icon": 'bi-gear-wide-connected',
+            "title": 'External Ally Inclusion',
+            "description": 'External Member Empanelment for POSH'
           },
           {
-            id: 4,
-            icon: 'bi-shield-check',
-            title: 'Documentation Assurance',
-            description: 'Ensuring POSH Compliance'
+            "id": 4,
+            "icon": 'bi-shield-check',
+            "title": 'Documentation Assurance',
+            "description": 'Ensuring POSH Compliance'
           }
         ]
       },
       {
-        "title": "POSCO Setup",
-        "description": "We help institutions set up a child protection policy as per the POCSO Act (Protection of Children from Sexual Offences), ensuring safe and compliant environments for children.",
-        "sid": "posco-setup",
-        type: "posco",
-        "image": "/img/setup.png",
+        "title": "Trainings and Skill Building under the POSH Act 2013",
+        "description": "We provide various training and skill-building programs under the POSH Act, 2013, including employee awareness, internal committee workshops, and leadership training to ensure a harassment-free workplace.",
+        "sid": "trainings-and-skill-building-under-posh-act-2013",
+        type: "posh",
+        "image": "/img/servicesImages/posh-training.jpg",
         "points": [
-          "Drafting Child Protection Policy for schools."
+          "Trainings/Awareness sessions for Employees.",
+          "Capability Building Workshop for Members of Internal Committee.",
+          "Train the Trainer.",
+          "Cyber safety training for online sexual harassment.",
+          "Leadership awareness session for Top Management and HR.",
+          "Active Bystander Training."
         ],
-        services: [
+        trainings: [
           {
-            id: 1,
-            icon: 'bi-person-check',
-            title: 'Employee Empowerment',
-            description: 'Employee POSH Training'
+            title: "Trainings/Awareness sessions for Employees.",
+            sid: "training-session-for-employees",
+            image: "/img/trainingImages/training.jpg",
+            type: "posh",
+            description: "Comprehensive sessions aimed at educating employees on workplace policies, ethical practices, and fostering a safe and inclusive work environment.",
+            points: [
+              "Understand workplace harassment policies and reporting mechanisms.",
+              "Learn about ethical workplace practices and cultural sensitivity.",
+              "Promote a respectful and inclusive work environment."
+            ]
           },
           {
-            id: 2,
-            icon: 'bi-people-fill',
-            title: 'Committee Proficiency',
-            description: 'POSH Committee Training'
+            title: "Capability Building Workshop for Members of Internal Committee.",
+            sid: "building-workshop",
+            image: "/img/trainingImages/workshop.jpg",
+            type: "posh",
+            description: "A focused workshop to enhance the skills and knowledge of internal committee members, enabling them to handle complaints and ensure compliance effectively.",
+            points: [
+              "Build knowledge of legal guidelines and procedures.",
+              "Enhance skills in investigation and conflict resolution.",
+              "Strengthen the understanding of confidentiality and impartiality."
+            ]
           },
           {
-            id: 3,
-            icon: 'bi-gear-wide-connected',
-            title: 'External Ally Inclusion',
-            description: 'External Member Empanelment for POSH'
+            title: "Train the Trainer.",
+            sid: "train-the-trainer",
+            image: "/img/trainingImages/training.jpg",
+            type: "posh",
+            description: "Specialized training designed to equip trainers with the skills and tools needed to conduct effective training sessions and spread awareness within the organization.",
+            points: [
+              "Learn best practices for delivering impactful sessions.",
+              "Develop facilitation and public speaking skills.",
+              "Gain knowledge on assessing trainee understanding and engagement."
+            ]
           },
           {
-            id: 4,
-            icon: 'bi-shield-check',
-            title: 'Documentation Assurance',
-            description: 'Ensuring POSH Compliance'
+            title: "Cyber safety training for online sexual harassment.",
+            sid: "cyber-safety-training",
+            image: "/img/trainingImages/cyber.jpg",
+            type: "posh",
+            description: "Training on cyber safety to help employees recognize, prevent, and respond to online harassment, promoting a safe online environment.",
+            points: [
+              "Identify and prevent online harassment and cyberbullying.",
+              "Understand digital privacy and data protection practices.",
+              "Learn steps for reporting and handling online abuse cases."
+            ]
+          },
+          {
+            title: "Leadership awareness session for Top Management and HR.",
+            sid: "leadership-awareness",
+            image: "/img/trainingImages/leadership.jpg",
+            type: "posh",
+            description: "A session dedicated to enhancing leadership awareness among top management and HR, emphasizing their role in fostering a safe and supportive workplace.",
+            points: [
+              "Understand leadership responsibilities in maintaining a safe workplace.",
+              "Develop strategies for proactive policy enforcement.",
+              "Promote a culture of transparency and accountability."
+            ]
+          },
+          {
+            title: "Active Bystander Training.",
+            sid: "active-bystander-training",
+            image: "/img/trainingImages/bystander.svg",
+            type: "posh",
+            description: "Training to empower employees to recognize and safely intervene in situations that could lead to harassment, helping to create a proactive and responsible work culture.",
+            points: [
+              "Learn how to recognize signs of harassment or distress.",
+              "Gain techniques for safely intervening in risky situations.",
+              "Encourage employees to support a safe workplace actively."
+            ]
+          },
+        ]
+      },
+      {
+        "title": "POCSO Setup",
+        "description": "We help institutions set up a child protection policy as per the POCSO Act (Protection of Children from Sexual Offences), ensuring safe and compliant environments for children.",
+        "sid": "pocso-setup",
+        "type": "pocso",
+        "image": "/img/servicesImages/protection.svg",
+        "points": [
+          "Drafting Child Protection Policy for schools.",
+          "Conducting workshops to educate staff and students on child safety and protection under the POCSO Act.",
+          "Establishing a dedicated grievance mechanism for children to report any issues safely and confidentially.",
+          "Training school staff to recognize, report, and respond to any signs of abuse or misconduct appropriately.",
+          "Assisting in forming a Child Protection Committee to ensure ongoing compliance and safety monitoring.",
+          "Developing response protocols for handling reports of abuse or misconduct effectively and legally.",
+          "Guidance on maintaining compliance documentation as per the POCSO Act and other child protection regulations.",
+          "Providing educational resources and training materials for parents and guardians about child safety and awareness.",
+          "Setting up a review mechanism for periodic assessment and improvement of child protection measures.",
+          "Collaborating with child protection experts and organizations to ensure best practices are maintained."
+        ],
+        "services": [
+          {
+            "id": 1,
+            "icon": 'bi-person-check',
+            "title": 'Employee Empowerment',
+            "description": 'Employee POSH Training'
+          },
+          {
+            "id": 2,
+            "icon": 'bi-people-fill',
+            "title": 'Committee Proficiency',
+            "description": 'POSH Committee Training'
+          },
+          {
+            "id": 3,
+            "icon": 'bi-gear-wide-connected',
+            "title": 'External Ally Inclusion',
+            "description": 'External Member Empanelment for POSH'
+          },
+          {
+            "id": 4,
+            "icon": 'bi-shield-check',
+            "title": 'Documentation Assurance',
+            "description": 'Ensuring POSH Compliance'
           }
         ]
       },
-      // {
-      //   "title": "Trainings under the POCSO Act, 2012",
-      //   "description": "We offer a variety of training programs under the POCSO Act, 2012, including child protection workshops, awareness sessions for staff and children, and training for school leaders and educators.",
-      //   "sid": "trainings-under-the-pocso-act-2012",
-      //   type: "posco",
-      //   "image": "/img/traningPosco.png",
-      //   "points": [
-      //     "Awareness session for kids about ‘Safe-Unsafe and Confusing Touch.",
-      //     "Train the Trainer.",
-      //     "Age appropriate Child Sexual Abuse/ Online Sexual Abuse prevention workshop.",
-      //     "Awareness training for support staff, admin staff, drivers, helpers in schools and all other organizations which are visited by children.",
-      //     "Trainings/Awareness sessions for Educators & School Leaders.",
-      //     "Compliance Training for Child Protection Committee Members."
-      //   ],
-      //   services: [
-      //     {
-      //       id: 1,
-      //       icon: 'bi-person-check',
-      //       title: 'Employee Empowerment',
-      //       description: 'Employee POSH Training'
-      //     },
-      //     {
-      //       id: 2,
-      //       icon: 'bi-people-fill',
-      //       title: 'Committee Proficiency',
-      //       description: 'POSH Committee Training'
-      //     },
-      //     {
-      //       id: 3,
-      //       icon: 'bi-gear-wide-connected',
-      //       title: 'External Ally Inclusion',
-      //       description: 'External Member Empanelment for POSH'
-      //     },
-      //     {
-      //       id: 4,
-      //       icon: 'bi-shield-check',
-      //       title: 'Documentation Assurance',
-      //       description: 'Ensuring POSH Compliance'
-      //     }
-      //   ]
-      // },
       {
-        "title": "POSCO Audit",
-        "description": "Our POSCO audit ensures compliance with the POCSO Act, 2012, and assesses practices in schools and institutions to safeguard children from abuse and exploitation.",
-        "sid": "posco-audit",
-        type: "posco",
-        "image": "/img/poscoAudit.png",
+        "title": "POCSO Audit",
+        "description": "Our pocso audit ensures compliance with the POCSO Act, 2012, and assesses practices in schools and institutions to safeguard children from abuse and exploitation.",
+        "sid": "pocso-audit",
+        "type": "pocso",
+        "image": "/img/servicesImages/pocso-audit.svg",
         "points": [
           "Institution's compliance to POCSO Act, 2012 and POCSO Rules 2020.",
           "Review of protocol followed and adoption of best practices in the school/college/educational institution in pursuance of POCSO law.",
@@ -587,40 +603,117 @@ export default createStore({
           "Audit of Police Verification Record of Support Staff/employees.",
           "Physical Inspection of the premises."
         ],
-        services: [
+        "services": [
           {
-            id: 1,
-            icon: 'bi-person-check',
-            title: 'Employee Empowerment',
-            description: 'Employee POSH Training'
+            "id": 1,
+            "icon": 'bi-person-check',
+            "title": 'Employee Empowerment',
+            "description": 'Employee POSH Training'
           },
           {
-            id: 2,
-            icon: 'bi-people-fill',
-            title: 'Committee Proficiency',
-            description: 'POSH Committee Training'
+            "id": 2,
+            "icon": 'bi-people-fill',
+            "title": 'Committee Proficiency',
+            "description": 'POSH Committee Training'
           },
           {
-            id: 3,
-            icon: 'bi-gear-wide-connected',
-            title: 'External Ally Inclusion',
-            description: 'External Member Empanelment for POSH'
+            "id": 3,
+            "icon": 'bi-gear-wide-connected',
+            "title": 'External Ally Inclusion',
+            "description": 'External Member Empanelment for POSH'
           },
           {
-            id: 4,
-            icon: 'bi-shield-check',
-            title: 'Documentation Assurance',
-            description: 'Ensuring POSH Compliance'
+            "id": 4,
+            "icon": 'bi-shield-check',
+            "title": 'Documentation Assurance',
+            "description": 'Ensuring POSH Compliance'
           }
         ]
-      }
+      },
+      {
+        "title": "Trainings under the POCSO Act, 2012",
+        "description": "We offer a variety of training programs under the POCSO Act, 2012, including child protection workshops, awareness sessions for staff and children, and training for school leaders and educators.",
+        "sid": "trainings-under-the-pocso-act-2012",
+        type: "pocso",
+        "image": "/img/servicesImages/training.png",
+        "points": [
+          "Awareness session for kids about ‘Safe-Unsafe and Confusing Touch.",
+          "Train the Trainer.",
+          "Age appropriate Child Sexual Abuse/ Online Sexual Abuse prevention workshop.",
+          "Awareness training for support staff, admin staff, drivers, helpers in schools and all other organizations which are visited by children.",
+          "Trainings/Awareness sessions for Educators & School Leaders.",
+          "Compliance Training for Child Protection Committee Members."
+        ],
+        trainings: [
+          {
+            title: "Awareness session for kids about ‘Safe-Unsafe and Confusing Touch.",
+            sid: "safe-unsafe-confusing-touch",
+            image: "/img/trainingImages/touch.jpg",
+            type: "pocso",
+            description: "An engaging session for children to help them understand and distinguish between safe, unsafe, and confusing touches, building a foundation of personal safety.",
+            points: [
+              "Teach children to identify different types of touch.",
+              "Empower kids to say 'no' and seek help if uncomfortable.",
+              "Use age-appropriate language and examples for understanding."
+            ]
+          },
+          {
+            title: "Age appropriate Child Sexual Abuse/ Online Sexual Abuse prevention workshop.",
+            sid: "child-sexual-abuse",
+            image: "/img/trainingImages/child-abuse.jpg",
+            type: "pocso",
+            description: "A workshop tailored for children of different age groups, teaching them how to recognize, prevent, and report abuse in both physical and online environments.",
+            points: [
+              "Provide knowledge on safe internet use and online privacy.",
+              "Teach children about consent and personal boundaries.",
+              "Offer strategies for reporting inappropriate behavior."
+            ]
+          },
+          {
+            title: "Awareness training for support staff, admin staff, drivers, helpers in schools and all other organizations which are visited by children.",
+            sid: "awareness-training-for-support-staff",
+            image: "/img/trainingImages/school-helper.jpg",
+            type: "pocso",
+            description: "Awareness training for support staff to ensure they understand child protection protocols and their role in creating a safe environment for children.",
+            points: [
+              "Provide guidance on child protection protocols and responsibilities.",
+              "Learn signs of potential abuse or neglect in children.",
+              "Teach staff appropriate reporting procedures for child safety."
+            ]
+          },
+          {
+            title: "Trainings/Awareness sessions for Educators & School Leaders.",
+            sid: "trainings-sessions-for-educators",
+            image: "/img/trainingImages/school-training.jpg",
+            type: "pocso",
+            description: "Awareness sessions for educators and school leaders to build knowledge on safeguarding children and implementing best practices in educational settings.",
+            points: [
+              "Train educators on recognizing and preventing abuse.",
+              "Establish a safe learning environment for all students.",
+              "Understand mandatory reporting requirements."
+            ]
+          },
+          {
+            title: "Compliance Training for Child Protection Committee Members.",
+            sid: "compliance-training-for-child-protection",
+            image: "/img/trainingImages/child-protection.svg",
+            type: "pocso",
+            description: "Training to ensure that Child Protection Committee members are well-informed of compliance standards and best practices for protecting children’s welfare.",
+            points: [
+              "Learn about legal obligations and child protection policies.",
+              "Develop skills for investigating and addressing complaints.",
+              "Understand the importance of confidentiality and accountability."
+            ]
+          }
+        ]
+      },
     ],
     tabs: [
       { id: 'all', name: 'All Posts' },
       { id: 'blog', name: 'Blog' },
       { id: 'events', name: 'Events' },
-      { id: 'courses', name: 'POSH Courses' },
-      { id: 'training', name: 'POSH Training' }
+      { id: 'courses', name: 'Courses' },
+      { id: 'training', name: 'Training' }
     ],
     posts: [
       {
@@ -723,8 +816,8 @@ export default createStore({
     trainings: [
       {
         title: "Trainings/Awareness sessions for Employees.",
-        sid: "posc-1",
-        image: "/img/traningPosh.png",
+        sid: "training-session-for-employees",
+        image: "/img/trainingImages/training.jpg",
         type: "posh",
         description: "Comprehensive sessions aimed at educating employees on workplace policies, ethical practices, and fostering a safe and inclusive work environment.",
         points: [
@@ -735,8 +828,8 @@ export default createStore({
       },
       {
         title: "Capability Building Workshop for Members of Internal Committee.",
-        sid: "posc-2",
-        image: "/img/traningPosh.png",
+        sid: "building-workshop",
+        image: "/img/trainingImages/workshop.jpg",
         type: "posh",
         description: "A focused workshop to enhance the skills and knowledge of internal committee members, enabling them to handle complaints and ensure compliance effectively.",
         points: [
@@ -747,8 +840,8 @@ export default createStore({
       },
       {
         title: "Train the Trainer.",
-        sid: "posc-3",
-        image: "/img/traningPosh.png",
+        sid: "train-the-trainer",
+        image: "/img/trainingImages/training.jpg",
         type: "posh",
         description: "Specialized training designed to equip trainers with the skills and tools needed to conduct effective training sessions and spread awareness within the organization.",
         points: [
@@ -759,8 +852,8 @@ export default createStore({
       },
       {
         title: "Cyber safety training for online sexual harassment.",
-        sid: "posc-4",
-        image: "/img/traningPosh.png",
+        sid: "cyber-safety-training",
+        image: "/img/trainingImages/cyber.jpg",
         type: "posh",
         description: "Training on cyber safety to help employees recognize, prevent, and respond to online harassment, promoting a safe online environment.",
         points: [
@@ -771,8 +864,8 @@ export default createStore({
       },
       {
         title: "Leadership awareness session for Top Management and HR.",
-        sid: "posc-5",
-        image: "/img/traningPosh.png",
+        sid: "leadership-awareness",
+        image: "/img/trainingImages/leadership.jpg",
         type: "posh",
         description: "A session dedicated to enhancing leadership awareness among top management and HR, emphasizing their role in fostering a safe and supportive workplace.",
         points: [
@@ -783,8 +876,8 @@ export default createStore({
       },
       {
         title: "Active Bystander Training.",
-        sid: "posc-6",
-        image: "/img/traningPosh.png",
+        sid: "active-bystander-training",
+        image: "/img/trainingImages/bystander.svg",
         type: "posh",
         description: "Training to empower employees to recognize and safely intervene in situations that could lead to harassment, helping to create a proactive and responsible work culture.",
         points: [
@@ -793,11 +886,12 @@ export default createStore({
           "Encourage employees to support a safe workplace actively."
         ]
       },
+
       {
         title: "Awareness session for kids about ‘Safe-Unsafe and Confusing Touch.",
-        sid: "posc-7",
-        image: "/img/traningPosh.png",
-        type: "posco",
+        sid: "safe-unsafe-confusing-touch",
+        image: "/img/trainingImages/touch.jpg",
+        type: "pocso",
         description: "An engaging session for children to help them understand and distinguish between safe, unsafe, and confusing touches, building a foundation of personal safety.",
         points: [
           "Teach children to identify different types of touch.",
@@ -807,9 +901,9 @@ export default createStore({
       },
       {
         title: "Age appropriate Child Sexual Abuse/ Online Sexual Abuse prevention workshop.",
-        sid: "posc-8",
-        image: "/img/traningPosh.png",
-        type: "posco",
+        sid: "child-sexual-abuse",
+        image: "/img/trainingImages/child-abuse.jpg",
+        type: "pocso",
         description: "A workshop tailored for children of different age groups, teaching them how to recognize, prevent, and report abuse in both physical and online environments.",
         points: [
           "Provide knowledge on safe internet use and online privacy.",
@@ -819,9 +913,9 @@ export default createStore({
       },
       {
         title: "Awareness training for support staff, admin staff, drivers, helpers in schools and all other organizations which are visited by children.",
-        sid: "posc-9",
-        image: "/img/traningPosh.png",
-        type: "posco",
+        sid: "awareness-training-for-support-staff",
+        image: "/img/trainingImages/school-helper.jpg",
+        type: "pocso",
         description: "Awareness training for support staff to ensure they understand child protection protocols and their role in creating a safe environment for children.",
         points: [
           "Provide guidance on child protection protocols and responsibilities.",
@@ -831,9 +925,9 @@ export default createStore({
       },
       {
         title: "Trainings/Awareness sessions for Educators & School Leaders.",
-        sid: "posc-10",
-        image: "/img/traningPosh.png",
-        type: "posco",
+        sid: "trainings-sessions-for-educators",
+        image: "/img/trainingImages/school-training.jpg",
+        type: "pocso",
         description: "Awareness sessions for educators and school leaders to build knowledge on safeguarding children and implementing best practices in educational settings.",
         points: [
           "Train educators on recognizing and preventing abuse.",
@@ -843,9 +937,9 @@ export default createStore({
       },
       {
         title: "Compliance Training for Child Protection Committee Members.",
-        sid: "posc-11",
-        image: "/img/traningPosh.png",
-        type: "posco",
+        sid: "compliance-training-for-child-protection",
+        image: "/img/trainingImages/child-protection.svg",
+        type: "pocso",
         description: "Training to ensure that Child Protection Committee members are well-informed of compliance standards and best practices for protecting children’s welfare.",
         points: [
           "Learn about legal obligations and child protection policies.",

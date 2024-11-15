@@ -76,6 +76,36 @@ const routes = [
     name: "TrainingDetailPage",
     component: () => import("@/pages/TrainingDetailPage.vue")
   },
+  {
+    path: "/training",
+    name: "TrainingListPage",
+    component: () => import("@/pages/TrainingListPage.vue")
+  },
+  {
+    path: "/pocso-training",
+    name: "pocsoListPage",
+    component: () => import("@/pages/PocsoListPage.vue")
+  },
+  {
+    path: "/posh-training",
+    name: "PoshListPage",
+    component: () => import("@/pages/PoshListPage.vue")
+  },
+  {
+    path: "/image-license",
+    name: "ImageLicense",
+    component: () => import("@/pages/ImageLicense.vue")
+  },
+  {
+    path: "/gallery",
+    name: "GalleryPage",
+    component: () => import("@/pages/GalleryPage.vue")
+  },
+  {
+    path: "/certificates",
+    name: "CertificatesPage",
+    component: () => import("@/pages/CertificatesPage.vue")
+  },
 ];
 
 const router = createRouter({

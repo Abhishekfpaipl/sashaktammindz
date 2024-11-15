@@ -17,8 +17,9 @@
             </div>
 
             <div class="col-12">
-                <button class="btn py-2 w-100" type="submit" style="background-color: var(--third-color); color: var(--primary-color)"><i class="bi bi-whatsapp me-2"></i> <span
-                        class="text-uppercase">Enquiry</span></button>
+                <button class="btn py-2 w-100" type="submit"
+                    style="background-color: var(--third-color); color: var(--primary-color)"><i
+                        class="bi bi-whatsapp me-2"></i> <span class="text-uppercase">Enquiry</span></button>
             </div>
         </form>
     </div>
@@ -34,11 +35,11 @@ export default {
     },
     methods: {
         submitQuery() {
-            const phoneNumber = '918860012001'; // Replace with your WhatsApp number
-                const message = `Hello, my name is ${this.name}. I need the following services: ${this.service}. Here are some additional notes: ${this.note}.`;
-                const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
-                window.open(whatsappUrl, '_blank');
-                this.name = "",
+            const phoneNumber = '919312765888'; // Replace with your WhatsApp number
+            const message = `Hello, my name is ${this.name}. I need the following services: ${this.service}. Here are some additional notes: ${this.note}.`;
+            const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
+            window.open(whatsappUrl, '_blank');
+            this.name = "",
                 this.service = "",
                 this.note = "";
         }

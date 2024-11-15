@@ -18,8 +18,7 @@
                 </div>
             </div>
         </div>
-        <p class="text-center py-4 text-white mb-0 w-100" @click="openDialer()"
-            style="background-color: var(--primary-color);">Questions? Speak to an advocate: +91 9312765888</p>
+        
     </div>
 </template>
 

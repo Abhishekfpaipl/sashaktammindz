@@ -1,6 +1,7 @@
 <template>
     <div class="banner-container">
         <img src="/img/newSection.png" alt="Product Banner" class="banner-image">
+        <!-- <img :src="image" alt="Product Banner" class="banner-image"> -->
         <div class="overlay">
             <h1 class="display-4 banner-title">{{ pageName }}</h1>
         </div>
@@ -9,6 +10,12 @@
 
 <script>
 export default {
+    // props:{
+    //     image:{
+    //         type: String,
+    //         required: true
+    //     }
+    // },
     data() {
         return {
             pageName: ''
@@ -42,13 +49,12 @@ export default {
     height: 100%;
     background-color: rgba(126, 1, 128, 0.5);
     opacity: 90%;
-    /* Opacity with transparency */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.banner-title { 
+.banner-title {
     color: white;
     font-weight: bold;
     text-transform: uppercase;

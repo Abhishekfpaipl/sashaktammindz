@@ -1,7 +1,7 @@
 <template>
     <div class="">
         <div class="container px-3 px-md-0">
-            <h1 class="text-center text-capitalize py-3">Why Choose Us</h1>
+            <h1 class="text-start display-5 text-capitalize mb-5">Why Choose Us</h1>
             <div class="row d-flex justify-content-center pb-5 pt-2">
                 <div class="col-lg-4 row row-cols-1 g-3 mt-0">
                     <div v-for="(service, index) in servicesLeft" :key="index" class="col">

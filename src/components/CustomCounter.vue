@@ -1,12 +1,12 @@
 <template>
-    <div class="container-fluid py-5">
-        <div class="row py-4">
+    <div class="container-fluid py-5" style="background-color: var(--third-color)">
+        <div class="row align-items-center">
             <div v-if="image" class="col-12 col-md-4">
-                <img :src="image" style="width: 450px; max-width: 80%" alt="">
+                <img :src="image" style="width: 250px; max-width: 80%" alt="">
             </div>
             <div :class="{ 'col-12': !image, 'col-12 col-md-8': image }">
                 <div class="row mt-4 text-dark">
-                    <div class="d-flex align-items-center justify-content-center gap-5 px-5 mb-4">
+                    <div class="d-flex align-items-center justify-content-center gap-5  mb-4">
                         <h1 class=" text-center text-capitalize mb-0 ms-md-5">{{ title }}</h1>
                         <router-link v-if="path" :to="path" class="text-dark me-md-5">
                             <i class="bi bi-arrow-right fs-1" ></i>
