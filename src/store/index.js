@@ -5,22 +5,34 @@ export default createStore({
     faqs: [
       {
         id: 1,
-        name: "POSH Policy and Implementation",
+        name: "POSH",
         plans: [
           {
-            question: "Is it mandatory for me to have a policy against sexual harassment?",
-            answer: "Yes"
+            question: "How to know whether POSH Act is applicable on my organization?",
+            answer: "POSH Act is applicable on all organisations irrespective of nature of work and number of employees."
           },
           {
-            question: "How can I inform my employees about the policy?",
-            answer: "You can inform your employees by circulating the policy via email, publishing it on the website or intranet, and displaying posters at conspicuous places in the workplace. Posters also help visitors become aware of the policy."
+            question: "Is it mandatory for organisations to have an Anti-Sexual Harassment policy?",
+            answer: "Yes."
+          },
+          {
+            question: "Is it mandatory to constitute Internal Committee?",
+            answer: "Internal Committee is mandatory for all organisations having more than 10 employees, to address complaints of sexual harassment."
+          },
+          {
+            question: "How can IC members handle complaints?",
+            answer: "It’s employer’s responsibility to organise skill development and capacity building trainings for members of Internal Committee. You can contact us for imparting such training."
+          },
+          {
+            question: "How should I inform my employees what is Sexual Harassment and its consequences?",
+            answer: "Employees Awareness training is one of the mandatory training under the law where Employees are trained on the aspects of Sexual Harassment and its consequences on the perpetrator and impact on victims. Contact us to organise Employees Awareness Training at your organisation."
           },
           {
             question: "Is it mandatory for me to display a poster in my organization?",
             answer: "Yes, it is required by law to display information on the penal consequences of sexual harassment, details of the IC, and policy information at conspicuous places to ensure safety at the workplace."
           },
           {
-            question: "My employees do not understand English, what do I do?",
+            question: "My employees do not understand English. What do I do?",
             answer: "We have posters available in all Indian languages. You can choose the preferred language and customize other details like size and color."
           },
           {
@@ -28,229 +40,101 @@ export default createStore({
             answer: "Yes, you can add your organization's logo to the poster, along with other customizations like size and color."
           },
           {
-            question: "Are there any samples?",
-            answer: "Yes. Please contact us if you wish to see samples."
+            question: "I have less than 10 employees. Do I need to have an IC?",
+            answer: "No. The Sexual harassment complaint in organisations having less than 10 employees will be filed before Local Committee (LC) of the District."
           },
           {
-            question: "How do I pay for the posters?",
-            answer: "We offer bank transfer, cash on delivery, and online payment options. Please choose the one suitable for you."
+            question: "I have 10 employees, none of whom are women. Do I still need to have an IC?",
+            answer: "Yes. Internal Committee is mandatory irrespective of gender of employees."
           },
           {
-            question: "How can IC members handle complaints?",
-            answer: "IC members should be trained on the law and complaint handling, including helping the complainant file a complaint, supporting them emotionally, informing the accused, and conducting inquiries."
+            question: "What is the composition of Internal Committee?",
+            answer: "Presiding Officer – Women working at senior level in the organisation; 2 Internal Members (at least) – Amongst employees committed to women issues, have legal knowledge or experience in social work; 1 External Member – from NGO or the person having knowledge of POSH Act."
           },
           {
-            question: "The IC of my organization is not familiar with the procedure under law, what can I do?",
-            answer: "You can arrange training for your IC on handling complaints."
+            question: "Can my organisation’s lawyer be an External Member?",
+            answer: "No. External Member has to be a neutral person and not related to organisation in any other manner."
           },
           {
-            question: "Is it mandatory to conduct training for IC?",
-            answer: "Yes"
+            question: "My organisation has multiple branches. Can I make a single Internal Committee for all branches?",
+            answer: "As per law, every branch having more than 10 employees, should have its own Internal Committee. To know more, contact us."
           },
           {
-            question: "How will I know that the training/workshop/seminar/awareness program was effective?",
-            answer: "We offer several methods to ensure session effectiveness. For more details, please contact us."
+            question: "What will happen, if I do not constitute an Internal Committee?",
+            answer: "Failure to constitute an Internal Committee, if you have more than 10 employees, can lead to penalties up to Rs. 50,000, doubling for repeat offenses, and possible license or registration cancellation."
           },
           {
-            question: "Am I required to create awareness about prevention of sexual harassment amongst my employees?",
-            answer: "Yes"
-          },
-          {
-            question: "What is an IC?",
-            answer: "An Internal Committee (IC) is an internal workplace committee to address complaints of sexual harassment. Employers with 10 or more employees must constitute an IC."
-          },
-          {
-            question: "I have 10 employees, do I need to have an IC?",
-            answer: "Yes"
-          },
-          {
-            question: "I have 10 employees, none of whom are women, do I still need to have an IC?",
-            answer: "Yes"
-          },
-          {
-            question: "Who can be an External Member?",
-            answer: "An External Member can be someone from an NGO or association dedicated to women's issues or familiar with sexual harassment matters."
-          },
-          {
-            question: "Is there any fee for the External Member?",
-            answer: "Yes, the External Member is entitled to an allowance of Rs. 200 per day and travel reimbursement."
-          },
-          {
-            question: "What happens if I do not fulfil the duties prescribed under law?",
-            answer: "Failure to meet the requirements, such as constituting an IC, can lead to penalties up to Rs. 50,000, doubling for repeat offenses, and possible license or registration cancellation."
-          },
-          {
-            question: "Can I ask for legal advice from POSH at Work?",
-            answer: "Yes. You can ask for a lawyer or submit a query through our platform."
+            question: "What will happen, if I do not organise trainings sessions for employees and members of Internal Committee?",
+            answer: "Employees awareness session and Skill Development and Capacity Building are mandatory by law. Failing to do so, can lead to penalties up to Rs. 50,000, doubling for repeat offenses, and possible license or registration cancellation."
           }
         ]
       },
       {
         id: 2,
-        name: "POSH General Information",
+        name: "POCSO ",
         plans: [
           {
-            question: "What is POSH policy?",
-            answer: "The POSH Act 2013 was enacted to protect women from sexual harassment and provide a safe and secure work environment."
+            question: "What is the POCSO Act?",
+            answer: "The Protection of Children from Sexual Offences (POCSO) Act, 2012, is a comprehensive law to protect children from sexual assault, sexual harassment, and pornography, while safeguarding the interests of the child at every stage of the judicial process."
           },
           {
-            question: "Is POSH training mandatory?",
-            answer: "Yes, creating awareness on preventing sexual harassment is required by the POSH Act."
+            question: "What is the age limit under the POCSO Act?",
+            answer: "The POCSO Act applies to offenses committed against any child under the age of 18 years."
           },
           {
-            question: "What is ICC in POSH?",
-            answer: "ICC, now referred to as IC, is an Internal Committee to address complaints of sexual harassment, mandated for organizations with 10 or more employees."
+            question: "Is the POCSO Act gender-neutral?",
+            answer: "Yes, the POCSO Act is gender-neutral and applies to any child under the age of 18, irrespective of gender."
           },
           {
-            question: "What is the full form of POSH?",
-            answer: "Prevention Of Sexual Harassment (POSH), aimed at creating a safe, harassment-free work environment."
+            question: "What are the main offenses under the POCSO Act?",
+            answer: "The main offenses under the POCSO Act include penetrative sexual assault, aggravated penetrative sexual assault, sexual assault, aggravated sexual assault, and sexual harassment of children."
           },
           {
-            question: "What are examples of harassment?",
-            answer: "Harassment includes actions like offering job benefits in exchange for sexual favors."
+            question: "What are the penalties under the POCSO Act?",
+            answer: "The penalties vary by offense, with serious offenses like aggravated penetrative sexual assault punishable by life imprisonment or even death, while other offenses may have penalties of up to 5-7 years of imprisonment and fines."
           },
           {
-            question: "Why is POSH training important?",
-            answer: "POSH training helps create awareness and a safe work environment."
+            question: "How can one report a POCSO offense?",
+            answer: "Anyone can report a POCSO offense to the police, Child Welfare Committee, or Special Juvenile Police Unit. The report can be made verbally or in writing, and mandatory reporting is required by law. It can also be filed online. To know more, connect with us."
           },
           {
-            question: "What is the origin of POSH law in India?",
-            answer: "POSH Law 2013 was India’s first legislation to specifically protect women from workplace sexual harassment."
+            question: "Is it mandatory to report POCSO cases?",
+            answer: "Yes, reporting of POCSO cases is mandatory under the law, and failure to report a case can result in legal consequences."
           },
           {
-            question: "What is POSH awareness?",
-            answer: "POSH awareness educates employees on the POSH Act 2013 and helps prevent workplace harassment."
+            question: "What is Child Protection Committee under POCSO?",
+            answer: "The Child Protection Committee is required to be constituted in schools to deal with child sexual abuse cases as per the law, ensure training for students, educators, parents, and support staff, and provide counseling to victims. To know more, connect with us."
           },
           {
-            question: "What is POSH law?",
-            answer: "A law to protect women from workplace harassment and to ensure complaint redressal."
+            question: "What protection is provided to victims under the POCSO Act?",
+            answer: "The Act provides protection to the victim and family, including confidentiality of identity, support services, and protection from intimidation by the accused."
           },
           {
-            question: "What is HR POSH?",
-            answer: "The POSH Act aims to protect women from workplace harassment and ensure a secure work environment."
+            question: "What rehabilitation services are available for victims?",
+            answer: "Victims are entitled to counseling, medical care, and rehabilitation services, provided by Child Welfare Committees and NGOs to aid in their recovery."
           },
           {
-            question: "What is Quid Pro Quo harassment?",
-            answer: "Quid Pro Quo harassment occurs when job benefits are offered in exchange for sexual favors, typically by someone in authority."
+            question: "Is there financial compensation for POCSO victims?",
+            answer: "Yes, the victim or family can seek compensation through legal provisions or victim compensation schemes for rehabilitation and medical expenses."
           },
           {
-            question: "What kind of harassment is illegal?",
-            answer: "Harassment based on race, age, sex, religion, national origin, disability, pregnancy, or marital status is illegal."
+            question: "How does POCSO ensure victim confidentiality?",
+            answer: "Under the POCSO Act, disclosure of a child’s identity in the media or any public forum is strictly prohibited, and violators are subject to penalties."
           },
           {
-            question: "What defines harassment?",
-            answer: "Harassment includes behavior that is offensive, affecting emotional and physical well-being, productivity, or relationships, leading to a toxic workplace."
+            question: "Why is POCSO Act awareness important?",
+            answer: "Awareness is crucial to prevent child sexual abuse, ensure reporting of cases, and educate the public on safeguarding children’s rights and welfare."
           },
           {
-            question: "Why is POSH important?",
-            answer: "The POSH Act is vital for protecting women at work, ensuring a safe environment."
+            question: "Is POCSO training mandatory for schools?",
+            answer: "Yes, many states mandate that schools and educational institutions provide POCSO training for staff and students to help prevent and report abuse."
           },
           {
-            question: "What is indirect harassment?",
-            answer: "Indirect harassment involves offensive actions not directed at a person, like lewd jokes or images."
-          },
-          {
-            question: "Who can file a complaint of sexual harassment at the workplace?",
-            answer: "Any woman working in or visiting a workplace, whether as an employee, visitor, intern, or in another capacity, can file a complaint."
+            question: "What all trainings are provided under POCSO?",
+            answer: "At सshaktaम् Mindz, age-appropriate trainings are provided to all children below 18 years. Trainings are also provided to stakeholders including Educators, Support Staff, Parents, Hospitals, Police, Child Protection Committee, Coaching Centres, etc. To know more about the trainings, contact us."
           }
         ]
       },
-      {
-        id: 3,
-        name: "POCSO Act Overview",
-        plans: [
-          {
-            "question": "What is the POCSO Act?",
-            "answer": "The Protection of Children from Sexual Offences (POCSO) Act, 2012, is a comprehensive law to protect children from sexual assault, sexual harassment, and pornography, while safeguarding the interests of the child at every stage of the judicial process."
-          },
-          {
-            "question": "What is the age limit under the POCSO Act?",
-            "answer": "The POCSO Act applies to offenses committed against any child under the age of 18 years."
-          },
-          {
-            "question": "Is the POCSO Act gender-neutral?",
-            "answer": "Yes, the POCSO Act is gender-neutral and applies to any child under the age of 18, irrespective of gender."
-          },
-          {
-            "question": "What are the main offenses under the POCSO Act?",
-            "answer": "The main offenses under the POCSO Act include penetrative sexual assault, aggravated penetrative sexual assault, sexual assault, aggravated sexual assault, and sexual harassment of children."
-          },
-          {
-            "question": "What are the penalties under the POCSO Act?",
-            "answer": "The penalties vary by offense, with serious offenses like aggravated penetrative sexual assault punishable by life imprisonment or even death, while other offenses may have penalties of up to 5-7 years of imprisonment and fines."
-          }
-        ]
-      },
-      {
-        id: 4,
-        name: "POCSO Reporting and Legal Procedures",
-        plans: [
-          {
-            "question": "How can one report a POCSO offense?",
-            "answer": "Anyone can report a POCSO offense to the police, Child Welfare Committee, or Special Juvenile Police Unit. The report can be made verbally or in writing, and mandatory reporting is required by law."
-          },
-          {
-            "question": "Is it mandatory to report POCSO cases?",
-            "answer": "Yes, reporting of POCSO cases is mandatory under the law, and failure to report a case can result in legal consequences."
-          },
-          {
-            "question": "What are the child-friendly procedures under POCSO?",
-            "answer": "The POCSO Act mandates child-friendly procedures such as recording the statement of the child in safe spaces, avoiding contact with the accused, and providing support from professionals during investigations."
-          },
-          {
-            "question": "Can a child be cross-examined during trial?",
-            "answer": "The POCSO Act restricts direct cross-examination of a child by the accused or defense lawyer to ensure a comfortable environment for the child."
-          },
-          {
-            "question": "Who conducts the trial under the POCSO Act?",
-            "answer": "The trial is conducted by Special Courts designated for POCSO cases to ensure speedy and sensitive handling of cases involving child victims."
-          }
-        ]
-      },
-      {
-        id: 5,
-        name: "POCSO Protection and Rehabilitation",
-        plans: [
-          {
-            "question": "What protection is provided to victims under the POCSO Act?",
-            "answer": "The Act provides protection to the victim and family, including confidentiality of identity, support services, and protection from intimidation by the accused."
-          },
-          {
-            "question": "What rehabilitation services are available for victims?",
-            "answer": "Victims are entitled to counseling, medical care, and rehabilitation services, provided by Child Welfare Committees and NGOs to aid in their recovery."
-          },
-          {
-            "question": "Is there financial compensation for POCSO victims?",
-            "answer": "Yes, the victim or family can seek compensation through legal provisions or victim compensation schemes for rehabilitation and medical expenses."
-          },
-          {
-            "question": "How does POCSO ensure victim confidentiality?",
-            "answer": "Under the POCSO Act, disclosure of a child’s identity in the media or any public forum is strictly prohibited, and violators are subject to penalties."
-          }
-        ]
-      },
-      {
-        id: 6,
-        name: "POCSO Awareness and Training",
-        plans: [
-          {
-            "question": "Why is POCSO Act awareness important?",
-            "answer": "Awareness is crucial to prevent child sexual abuse, ensure reporting of cases, and educate the public on safeguarding children’s rights and welfare."
-          },
-          {
-            "question": "Is POCSO training mandatory for schools?",
-            "answer": "Yes, many states mandate that schools and educational institutions provide POCSO training for staff and students to help prevent and report abuse."
-          },
-          {
-            "question": "What is the role of NGOs in POCSO awareness?",
-            "answer": "NGOs play a vital role in spreading awareness, providing training, and assisting victims with support and rehabilitation under the POCSO Act."
-          },
-          {
-            "question": "How can I access POCSO resources?",
-            "answer": "You can access resources through government websites, Childline India, NGOs, and local child welfare offices for materials on child protection and POCSO law."
-          }
-        ]
-      }
     ],
     profiles: [
       {
@@ -785,7 +669,6 @@ export default createStore({
         title: 'POSH Summit 2024',
         sid: 'posh-summit-2024',
         description: 'The annual POSH Summit brings together experts, schools, and institutions to discuss best practices, share insights, and schools, and institutions to discuss best practices, share  ',
-        image: 'https://www.nomeansno.in/wp-content/uploads/2024/12/POSHSummit2024.jpg',
         videoUrl: 'https://www.youtube.com/watch?v=pf-GH6yaVWQ',
         type: 'event'
       },

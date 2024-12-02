@@ -61,7 +61,7 @@ export default {
     return {
       menus: [
         { id: 1, title: 'Home', path: '/', },
-        { id: 2, title: 'Training', path: '/training' },
+        { id: 2, title: 'Trainings', path: '/training' },
         { id: 3, title: 'Events', path: '/events' },
         { id: 4, title: 'Blogs', path: '/blogs' },
         { id: 5, title: 'About Us', path: '/about-us' },

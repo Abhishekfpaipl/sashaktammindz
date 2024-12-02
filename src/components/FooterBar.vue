@@ -69,7 +69,7 @@
             <div class="col-12 col-md-4 mb-3 text-center">
                 <p class="mb-2 fw-bold">Contact Us</p>
                 <p class="mb-2">Email: noopur@sashaktammindz.com</p>
-                <p class="mb-2">Mob no.: 91-9312765888</p>
+                <p class="mb-2">Mob no.: +91-9312765888</p>
                 <p class="mb-2">Address: 20, Onward Workspaces, First<br>
                     Floor, Okhla Industrial Estate,<br>
                     Phase-3, New Delhi-110020</p>

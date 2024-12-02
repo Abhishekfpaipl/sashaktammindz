@@ -16,6 +16,9 @@
                 </div>
             </div>
             <AboutReportSection />
+            <div class="my-5">
+                <WhyChooseUs />
+            </div>
             <AutoScrolling :cards="companies" title="test" />
             <div class="my-5">
                 <TeamSection imagePosition="right" :profiles="profiles" />    
@@ -27,6 +30,7 @@
 import TeamSection from '@/components/TeamSection.vue';
 import AutoScrolling from '@/components/AutoScrolling.vue';
 import AboutReportSection from '@/components/AboutReportSection.vue';
+import WhyChooseUs from '@/components/WhyChooseUs.vue';
 import SectionTopBanner from '@/components/SectionTopBanner.vue';
 
 export default {
@@ -35,6 +39,7 @@ export default {
         TeamSection,
         AutoScrolling,
         AboutReportSection,
+        WhyChooseUs,
         SectionTopBanner,
     },
     data() {

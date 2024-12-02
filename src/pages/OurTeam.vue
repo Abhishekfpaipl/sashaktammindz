@@ -83,7 +83,7 @@ export default {
     },
     data() {
         return {
-            title: 'Founder of Sashaktam Mindz',
+            title: 'Founder of सshaktaम् Mindz',
         }
     },
     computed: {

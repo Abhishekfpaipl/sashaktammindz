@@ -2,7 +2,7 @@
     <div>
         <!-- <Banner brandColorOne="#125252" v-observe /> -->
         <BannerSection />
-        <!-- <ImageTextSection image-src="/img/bannerNew.png" title="" :typingAnimation="false" heading="sashaktam mindz"
+        <!-- <ImageTextSection image-src="/img/bannerNew.png" title="" :typingAnimation="false" heading="सshaktaम् Mindz"
             subHeading="Let's create a safer workspace together" :button="true" buttonText="Take Demo"
             buttonRoute="/free-trial" :button2="true" buttonText2="Talk To Us" buttonRoute2="/contact-us"
             image-alt="posh" :points="bannerPoints" text="" :imageFirst="false" /> -->
@@ -24,8 +24,14 @@
                 description="Book a free consultation to discuss your needs with our expert team. Whether you're exploring treatment options, seeking professional advice, or have questions, our consultation offers personalized guidance at no cost. Start your journey towards informed decisions and tailored solutions by scheduling your free session today!"
                 routeLink="/free-trial" imagePosition="right" v-observe />
         </div>
-        <div class="my-5">
+        <!-- <div class="my-5">
             <WhyChooseUs v-observe />
+        </div> -->
+        <div class="my-5">
+            <OurJourney v-observe />
+        </div>
+        <div class="my-5">
+            <ReviewSection v-observe />
         </div>
         <div class="my-5">
             <TeamSection imagePosition="right" :profiles="profiles" />
@@ -56,13 +62,15 @@
 import BannerSection from "@/components/BannerSection.vue";
 // import ImageTextSection from "@/components/ImageTextSection.vue";
 import CustomCounter from "@/components/CustomCounter.vue";
-import WhyChooseUs from "@/components/WhyChooseUs.vue";
+// import WhyChooseUs from "@/components/WhyChooseUs.vue";
 import TeamSection from "@/components/TeamSection.vue";
 import EventSection from "@/components/EventSection.vue";
 import BlogSection from "@/components/BlogSection.vue";
 import ServicesCard from "@/components/ServicesCard.vue";
 import NewGallerySection from "@/components/NewGallerySection.vue";
 import TextSection from "@/components/TextSection.vue";
+import ReviewSection from "@/components/ReviewSection.vue";
+import OurJourney from "@/components/OurJourney.vue";
 // import TrainingCard from "@/components/TrainingCard.vue";
 // import TestSection from "@/components/TestSection.vue";
 export default {
@@ -71,13 +79,15 @@ export default {
         // ImageTextSection,
         BannerSection,
         CustomCounter,
-        WhyChooseUs,
+        // WhyChooseUs,
         TeamSection,
         EventSection,
         BlogSection,
         ServicesCard,
         NewGallerySection,
         TextSection,
+        ReviewSection,
+        OurJourney,
         // TrainingCard,
         // TestSection,
     },
